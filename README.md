@@ -36,3 +36,32 @@ Features
 
 form: add empty fields behavior info message (23882829)
 
+
+Ce qu'il faut savoir faire:
+
+Renommer ...
+
+Modifier ...
+
+Réordonner ...
+
+Fusionner ...
+
+Supprimer ...
+
+Découper ...
+
+... un commit
+
+
+
+Collaboration
+
+Préférer le rebase au merge pour la lisibilité et la simplicité
+
+plus complexe, perte d'informations
+
+
+
+stash is crappy ! commit wip then rebase it!
+
