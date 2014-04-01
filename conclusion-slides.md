@@ -1,18 +1,21 @@
-# Git++ : Passez au niveau supérieur de la gestion de version
+# Git++ : Le recap
 
 ---
 
-## Qualité de l'historique du code ? Pourquoi faire ?
+## Un historique propre !
+
+* Mise en contexte
+* Perte de mémoire
+* Retour de congés
+* Arrivée d'un nouveau
+* Revue de code
 
 ---
 
-## Donner du sens aux changements du code: quoi ? où ? pourquoi ? (comment ?)
-
----
+## Un formalisme commun
 
 ```
 feat(login): reset password on demand
-
 
 send an email with unique reset url
 display a form to define a new password
@@ -20,19 +23,22 @@ display a form to define a new password
 Closes #1234
 ```
 
-(quoi ? où ? (pour)quoi ? (comment ?) (référence?))
+---
+
+## Répondre aux questions importantes
+
+* Quoi ?
+* Où ?
+* Pourquoi ?
+* Comment ?
+* TODO parler des références
 
 ---
 
-## Faciliter la compréhension de l'historique, par exemple:
-
-* A l'arrivée d'un nouveau
-* au retour de congés
-* pour des code reviews (a)synchrones
-
----
+## Générer un changelog
 
 ```
+TODO remplacer par l'image du changelog généré final
 Changelog (en image)
 
 v5.8.2 (2014-02-21)
@@ -51,39 +57,80 @@ form: add empty fields behavior info message (23882829)
 
 ---
 
-## Ce qu'il faut savoir faire sur un commit :
+## Soigner l'historique<br>=<br>modifier des commits
+
+/!\ Ne jamais le faire sur master
 
 ---
 
-### Renommer ...
+### Rebase plutôt que merge
+
+TODO Rappels sur le rebase
+
+```
+git rebase master
+```
 
 ---
 
-### Modifier ...
+### Rebase interactif
+
+```
+git rebase -i master
+git rebase -i HEAD~3
+git rebase -i 74dec23
+
+# editer la todo list
+
+# faire les actions
+
+git rebase --continue
+
+# (résoudre les conflits)
+```
 
 ---
 
-### Réordonner ...
+### Renommer un commit
+
+`reword/r`
 
 ---
 
-### Fusionner ...
+### Modifier un comit
+
+`edit/e`
 
 ---
 
-### Supprimer ...
+### Réordonner un commit
+
+changer l'ordre des lignes
 
 ---
 
-### Découper ...
+### Fusionner un commit
+
+`squash/s` : fusionner les messages<br>
+ou `fixup/f` : garder le message le plus ancien
 
 ---
 
-## Collaboration
+### Supprimer un commit
 
-Préférer le rebase au merge pour la lisibilité et la simplicité
+supprimer une ligne
 
-plus complexe, perte d'informations
+---
 
-stash is crappy ! commit wip then rebase it!
+### Insérer un nouveau commit au milieu
 
+`edit/e` pour s'arrêter au milieu<br>
++ `commit`
+
+---
+
+## Merci ;-)
+
+---
+
+## Q/A ??
