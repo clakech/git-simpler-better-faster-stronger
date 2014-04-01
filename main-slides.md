@@ -76,6 +76,10 @@
 
 ---
 
+![us1234](img/pull-request-with-detailed-commits.png)
+
+---
+
 ## Donner du sens aux changements du code: quoi ? où ? pourquoi ? (comment ?)
 
 ---
