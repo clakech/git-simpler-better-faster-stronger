@@ -80,34 +80,126 @@
 
 ---
 
-## Donner du sens aux changements du code: quoi ? où ? pourquoi ? (comment ?)
+# Donner du sens aux changements du code
+
+<br/>
+###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
 
+## Convention de Commit
+
+```txt
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+<br/>
+###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
+
+---
+
+## Exemple 1
+<br/>
+
+```
+feat(search): add automatic suggestions
+
+we now use the new feature from the search API to provide
+instant suggestions just below search inputs
+
+* update component implementation to support automatic suggestion
+* update component tests
+* update component documentation
+```
+<br/>
+###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
+
+---
+## Exemple 2
+<br/>
+
+
 ```
 feat(login): reset password on demand
-
 
 send an email with unique reset url
 display a form to define a new password
 
 Closes #1234
 ```
-
-(quoi ? où ? (pour)quoi ? (comment ?) (référence?))
-
----
-
-## Faciliter la compréhension de l'historique, par exemple:
-
-* A l'arrivée d'un nouveau
-* au retour de congés
-* pour des code reviews (a)synchrones
+<br/>
+###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
+
+## Exemple 3
+<br/>
+
 
 ```
-Changelog (en image)
+fix(search): find products containing special chars
+
+escape specials chars before search API call
+
+special characters: \+-&|!(){}[]^"~*?:
+see related doc at: http://lucene.apache.org/core/4_7_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Escaping_Special_Characters
+
+Closes #789
+```
+<br/>
+###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
+
+---
+##Types - Quoi?
+
+* feat: Une fonctionnalité
+* fix: Un correctif
+* refactor: Un changement de code qui n'est ni une fonctionnalité ni un correctif
+* chore: Un changement dans le processus de construction ou configuration d'un outil auxiliaire utilisé pour tester le code
+<br/>
+<br/>
+* test: Un test manquant
+* docs: Un changement dans la documentation
+* style: Un changement de formattage
+---
+##Scopes - Où
+
+Choississez vos scopes, listez les et faites les évoluer au cours du temps
+
+* product
+* editorial
+* family
+* model
+* attribut
+<br/>
+<br/> 
+* (optionnel)
+
+---
+##Subjects - (Pour)quoi?
+
+Description des changements et de ce que cela implique
+
+##Body - Comment?
+
+* (optionnel)
+
+##Footer - Référence?
+
+* (optionnel)
+
+###Breaking Changes
+
+---
+
+## Changelog
+<br/>
+
+```
+Changelog (mettre une image)
 
 v5.8.2 (2014-02-21)
 
@@ -127,29 +219,12 @@ form: add empty fields behavior info message (23882829)
 
 ## Ce qu'il faut savoir faire sur un commit :
 
----
-
-### Renommer ...
-
----
-
-### Modifier ...
-
----
-
-### Réordonner ...
-
----
-
-### Fusionner ...
-
----
-
-### Supprimer ...
-
----
-
-### Découper ...
+* Renommer
+* Modifier
+* Réordonner
+* Fusionner
+* Supprimer
+* Découper
 
 ---
 
