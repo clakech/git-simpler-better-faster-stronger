@@ -8,47 +8,71 @@
 
 ### Commit by stack
 
-![us1234](crappyCommit/commitByStack.png)
+![us1234](img/commitByStack.png)
 
 ---
 
 ### Merge
 
-![us1234](crappyCommit/merge.png)
+![us1234](img/merge.png)
 
 ---
 
 ### One word commit
 
-![us1234](crappyCommit/oneWordCommit.png)
+![us1234](img/oneWordCommit.png)
 
 ---
 
 ### Revert
 
-![us1234](crappyCommit/revert.png)
+![us1234](img/revert.png)
 
 ---
 
 ### Test
 
-![us1234](crappyCommit/test.png)
+![us1234](img/test.png)
 
 ---
 
 ### US1234
 
-![us1234](crappyCommit/US1234.png)
+![us1234](img/US1234.png)
 
 ---
 
 ### WIP
 
-![us1234](crappyCommit/wip.png)
+![us1234](img/wip.png)
 
 ---
 
 ## Qualité de l'historique du code ? Pourquoi faire ?
+
+---
+
+### Un historique propre
+
+![us1234](img/goodHistory.png)
+
+---
+
+### Perte de mémoire
+
+![us1234](img/devWhatIsThis.jpg)
+
+---
+
+### Retour de vacances
+
+![us1234](img/devOnVacation.jpg)
+
+---
+
+### Arrivée d'un nouveau
+
+![us1234](img/devNew.jpg)
 
 ---
 
