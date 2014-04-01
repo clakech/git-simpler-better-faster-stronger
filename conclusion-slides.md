@@ -10,48 +10,6 @@
 
 ---
 
-### Commit by stack
-
-![us1234](crappyCommit/commitByStack.png)
-
----
-
-### Merge
-
-![us1234](crappyCommit/merge.png)
-
----
-
-### One word commit
-
-![us1234](crappyCommit/oneWordCommit.png)
-
----
-
-### Revert
-
-![us1234](crappyCommit/revert.png)
-
----
-
-### Test
-
-![us1234](crappyCommit/test.png)
-
----
-
-### US1234
-
-![us1234](crappyCommit/US1234.png)
-
----
-
-### WIP
-
-![us1234](crappyCommit/wip.png)
-
----
-
 ```
 feat(login): reset password on demand
 
