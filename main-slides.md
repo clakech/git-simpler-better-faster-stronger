@@ -8,31 +8,31 @@
 
 ### Commit by stack
 
-![us1234](img/commitByStack.png)
+![commit by stack](img/commitByStack.png)
 
 ---
 
 ### Merge
 
-![us1234](img/merge.png)
+![merge](img/merge.png)
 
 ---
 
 ### One word commit
 
-![us1234](img/oneWordCommit.png)
+![one work commit](img/oneWordCommit.png)
 
 ---
 
 ### Revert
 
-![us1234](img/revert.png)
+![revert](img/revert.png)
 
 ---
 
 ### Test
 
-![us1234](img/test.png)
+![test](img/test.png)
 
 ---
 
@@ -44,7 +44,7 @@
 
 ### WIP
 
-![us1234](img/wip.png)
+![wip](img/wip.png)
 
 ---
 
@@ -54,29 +54,29 @@
 
 ### Un historique propre
 
-![us1234](img/goodHistory.png)
+![good history](img/goodHistory.png)
 
 ---
 
 ### Perte de mémoire
 
-![us1234](img/devWhatIsThis.jpg)
+![what is this](img/devWhatIsThis.jpg)
 
 ---
 
 ### Retour de vacances
 
-![us1234](img/devOnVacation.jpg)
+![on vacation](img/devOnVacation.jpg)
 
 ---
 
 ### Arrivée d'un nouveau
 
-![us1234](img/devNew.jpg)
+![nouveau](img/devNew.jpg)
 
 ---
 
-![us1234](img/pull-request-with-detailed-commits.png)
+![Pull request](img/pull-request-with-detailed-commits.png)
 
 ---
 
@@ -177,6 +177,26 @@ Choississez vos scopes, listez les et faites les évoluer au cours du temps
 <br/>
 <br/> 
 * (optionnel)
+
+---
+##Git rebase
+
+![git rebase target](img/git-tutorial_rebase-target.png)
+
+---
+##Git rebase
+
+![git rebase target](img/git-tutorial_rebase.png)
+
+---
+##Git merge
+
+![git rebase target](img/git-tutorial_merge-three-way.png)
+
+---
+##Git rebase
+
+![git rebase target](img/git-tutorial_rebase-merge.png)
 
 ---
 ##Subjects - (Pour)quoi?
