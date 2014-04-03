@@ -262,3 +262,48 @@ form: add empty fields behavior info message (23882829)
 * Fusionner
 * Supprimer
 * Découper
+
+---
+#DEMO
+---
+##Git merge vs rebase
+
+* \+ historique simple
+* \- perte du contexte de travail
+* \- plus difficile à maitriser
+
+<br/>
+###attention au rebase de commits publics
+
+---
+##Git rebase ? Git commit ? Git merge ?
+<br/>
+
+* Code privé ? rebase
+* Code review ? commit
+* Code ready ? rebase
+
+---
+##Changelog
+<br/>
+
+```
+#update your version > edit your config file
+
+grunt changelog
+
+git commit
+
+git push
+```
+
+---
+##Changelog
+<br/>
+
+```
+grunt build bump-only:minor changelog bump-commit
+
+```
+
+---
