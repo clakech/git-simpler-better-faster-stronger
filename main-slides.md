@@ -199,6 +199,21 @@ Choississez vos scopes, listez les et faites les évoluer au cours du temps
 ![git rebase target](img/git-tutorial_rebase-merge.png)
 
 ---
+##Git merge vs rebase
+
+* \+ historique simple
+* \- perte du contexte de travail
+* \- plus difficile à maitriser
+
+<br/>
+###attention au rebase de commits publiques
+
+---
+##Git merge vs rebase
+
+![git rebase vs merge](img/clean-vs-dirty-water.jpg)
+
+---
 ##Subjects - (Pour)quoi?
 
 Description des changements et de ce que cela implique
