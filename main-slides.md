@@ -153,7 +153,7 @@ Closes #789
 ###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
-##Types - Quoi?
+##Type: Quoi?
 
 * feat: Une fonctionnalité
 * fix: Un correctif
@@ -165,7 +165,7 @@ Closes #789
 * docs: Un changement dans la documentation
 * style: Un changement de formattage
 ---
-##Scopes - Où
+##Scope: Où?
 
 Choississez vos scopes, listez les et faites les évoluer au cours du temps
 
@@ -177,6 +177,45 @@ Choississez vos scopes, listez les et faites les évoluer au cours du temps
 <br/>
 <br/> 
 * (optionnel)
+
+---
+##Subject: (Pour)quoi?
+
+Description des changements et de ce que cela implique
+
+##Body: Comment?
+
+* (optionnel)
+
+##Footer: Référence?
+
+* (optionnel)
+
+###Breaking Changes
+
+* (optionnel)
+
+---
+
+## Changelog
+<br/>
+
+```
+Changelog (mettre une image)
+
+v5.8.2 (2014-02-21)
+
+Bug Fixes
+
+family:
+	split files into services and directives (3a15c697)
+	update style on multiple checks on queries (97185f0e)
+queryPicker: replace != by ≠ in query picker operands (f16b3f7c)
+
+Features
+
+form: add empty fields behavior info message (23882829)
+```
 
 ---
 ##Git rebase
@@ -214,43 +253,6 @@ Choississez vos scopes, listez les et faites les évoluer au cours du temps
 ![git rebase vs merge](img/clean-vs-dirty-water.jpg)
 
 ---
-##Subjects - (Pour)quoi?
-
-Description des changements et de ce que cela implique
-
-##Body - Comment?
-
-* (optionnel)
-
-##Footer - Référence?
-
-* (optionnel)
-
-###Breaking Changes
-
----
-
-## Changelog
-<br/>
-
-```
-Changelog (mettre une image)
-
-v5.8.2 (2014-02-21)
-
-Bug Fixes
-
-family:
-	split files into services and directives (3a15c697)
-	update style on multiple checks on queries (97185f0e)
-queryPicker: replace != by ≠ in query picker operands (f16b3f7c)
-
-Features
-
-form: add empty fields behavior info message (23882829)
-```
-
----
 
 ## Ce qu'il faut savoir faire sur un commit :
 
@@ -260,14 +262,3 @@ form: add empty fields behavior info message (23882829)
 * Fusionner
 * Supprimer
 * Découper
-
----
-
-## Collaboration
-
-Préférer le rebase au merge pour la lisibilité et la simplicité
-
-plus complexe, perte d'informations
-
-stash is crappy ! commit wip then rebase it!
-
