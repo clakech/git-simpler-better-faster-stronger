@@ -48,7 +48,7 @@
 
 ---
 
-### One word commit
+### Devinette
 
 ![one work commit](img/oneWordCommit.png)
 
@@ -66,13 +66,13 @@
 
 ---
 
-### US1234
+### User Story 1234
 
 ![us1234](img/US1234.png)
 
 ---
 
-### WIP
+### Work In Progress
 
 ![wip](img/wip.png)
 
