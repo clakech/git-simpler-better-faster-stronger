@@ -2,6 +2,36 @@
 
 ---
 
+# Git c'est dur!
+
+![commit by stack](img/cockpit.jpg)
+
+---
+
+# Git != SVN
+
+![commit by stack](img/marteau.jpg)
+
+---
+
+# Git c'est pour les hommes à tout faire!
+
+![commit by stack](img/couteau-suisse2.jpg)
+
+---
+
+# Git c'est pour les ninja!
+
+![commit by stack](img/katana.jpg)
+
+---
+
+# Git c'est pour les ninjas à tout faire!
+
+![commit by stack](img/katana-couteau-suisse.png)
+
+---
+
 ## Historique crappy
 
 ---
