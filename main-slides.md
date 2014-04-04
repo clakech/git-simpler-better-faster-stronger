@@ -270,17 +270,17 @@ form: add empty fields behavior info message (23882829)
 ---
 ##Git merge vs rebase
 
+![git rebase vs merge](img/clean-vs-dirty-water.jpg)
+
+---
+##Git merge vs rebase
+
 * \+ historique simple
 * \- perte du contexte de travail
 * \- plus difficile à maitriser
 
 <br/>
 ###attention au rebase de commits publics
-
----
-##Git merge vs rebase
-
-![git rebase vs merge](img/clean-vs-dirty-water.jpg)
 
 ---
 
