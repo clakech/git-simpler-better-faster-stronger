@@ -164,7 +164,6 @@
 
 # Donner du sens aux changements du code
 
-<br/>
 ###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
@@ -178,13 +177,11 @@
 <BLANK LINE>
 <footer>
 ```
-<br/>
 ###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
 
 ## Exemple 1
-<br/>
 
 ```diff
 feat(search): add automatic suggestions
@@ -196,13 +193,12 @@ instant suggestions just below search inputs
 * update component tests
 * update component documentation
 ```
-<br/>
+
 ###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
-## Exemple 2
-<br/>
 
+## Exemple 2
 
 ```diff
 feat(login): reset password on demand
@@ -212,13 +208,12 @@ display a form to define a new password
 
 Closes #1234
 ```
-<br/>
+
 ###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
 
 ## Exemple 3
-<br/>
 
 ```diff
 fix(search): find products containing special chars
@@ -230,7 +225,7 @@ see related doc at: http://lucene.apache.org/core/4_7_0/queryparser/org/apache/l
 
 Closes #789
 ```
-<br/>
+
 ###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
@@ -240,13 +235,14 @@ Closes #789
 * fix: Un correctif
 * refactor: Un changement de code qui n'est ni une fonctionnalité ni un correctif
 * chore: Un changement dans le processus de construction ou configuration d'un outil auxiliaire utilisé pour tester le code
-<br/>
-<br/>
+
 * test: Un test manquant
 * docs: Un changement dans la documentation
 * style: Un changement de formattage
+
 ---
-##Scope: Où?
+
+## Scope: Où?
 
 Choississez vos scopes, listez les et faites les évoluer au cours du temps
 
@@ -255,8 +251,8 @@ Choississez vos scopes, listez les et faites les évoluer au cours du temps
 * family
 * model
 * attribut
-<br/>
-<br/>
+
+
 * (optionnel)
 
 ---
@@ -279,7 +275,6 @@ Description des changements et de ce que cela implique
 ---
 
 ## Changelog
-<br/>
 
 ```
 Changelog (mettre une image)
@@ -330,7 +325,6 @@ form: add empty fields behavior info message (23882829)
 * \- perte du contexte de travail
 * \- plus difficile à maitriser
 
-<br/>
 ###attention au rebase de commits publics
 
 ---
@@ -353,12 +347,10 @@ form: add empty fields behavior info message (23882829)
 * \- perte du contexte de travail
 * \- plus difficile à maitriser
 
-<br/>
 ###attention au rebase de commits publics
 
 ---
 ##Git rebase ? Git commit ? Git merge ?
-<br/>
 
 * Code privé ? rebase
 * Code review ? commit
@@ -366,7 +358,6 @@ form: add empty fields behavior info message (23882829)
 
 ---
 ##Changelog
-<br/>
 
 ```bash
 #update your version > edit your config file
@@ -380,7 +371,6 @@ git push
 
 ---
 ##Changelog
-<br/>
 
 ```bash
 grunt build bump-only:minor changelog bump-commit
