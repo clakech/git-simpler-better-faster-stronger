@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Francois+One|Open+Sans:400,700);
+
+body {
+  background: #53B6BC;
+  background: -moz-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #FFF), color-stop(100%, #53B6BC));
+  background: -webkit-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
+  background: -o-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
+  background: -ms-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
+  background: radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
+  background-color: #FFF;
+}
+
+.reveal {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: -0.05em;
+  margin: 0 0 20px 0;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+/*********************************************
+ * SPECIAL first slide
+ *********************************************/
+.reveal section:first-child {
+  font-size: 50px;
+}
+
+.reveal section:first-child h1 {
+  font-size: 250px;
+}
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  background: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 15px 0px;
+}
+
+/*********************************************
+ * CODE
+ *********************************************/
+.reveal pre {
+  border: 5px solid #F5AF33;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  font-size: 30px;
+  margin: 75px auto;
+  width: 95%;
+}
+
+.reveal pre code {
+  padding: 20px;
+}
+
+/*********************************************
+ * GIT LOG
+ *********************************************/
+.reveal table {
+  background: #FFF;
+  border: 5px solid #F5AF33;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 40px auto 0 auto;
+  padding: 20px;
+}
+
+.reveal td {
+  font-family: monospace;
+  font-size: 30px;
+  padding: 5px 10px;
+}
+
+.reveal td:nth-child(2) {
+  color: #53B6BC;
+  font-weight: bold;
+}
+
+.reveal td:nth-child(3) {
+  color: #333;
+}
