@@ -171,7 +171,7 @@
 
 ## Convention de Commit
 
-```txt
+```diff
 <type>(<scope>): <subject>
 <BLANK LINE>
 <body>
@@ -186,7 +186,7 @@
 ## Exemple 1
 <br/>
 
-```
+```diff
 feat(search): add automatic suggestions
 
 we now use the new feature from the search API to provide
@@ -204,7 +204,7 @@ instant suggestions just below search inputs
 <br/>
 
 
-```
+```diff
 feat(login): reset password on demand
 
 send an email with unique reset url
@@ -220,8 +220,7 @@ Closes #1234
 ## Exemple 3
 <br/>
 
-
-```
+```diff
 fix(search): find products containing special chars
 
 escape specials chars before search API call
@@ -369,7 +368,7 @@ form: add empty fields behavior info message (23882829)
 ##Changelog
 <br/>
 
-```
+```bash
 #update your version > edit your config file
 
 grunt changelog
@@ -383,7 +382,7 @@ git push
 ##Changelog
 <br/>
 
-```
+```bash
 grunt build bump-only:minor changelog bump-commit
 
 ```

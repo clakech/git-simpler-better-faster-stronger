@@ -21,7 +21,7 @@
 	if( typeof hljs !== 'undefined' ) {
 		marked.setOptions({
 			highlight: function( lang, code ) {
-				return hljs.highlightAuto( lang, code ).value;
+				return hljs.highlight( lang, code ).value;
 			}
 		});
 	}
