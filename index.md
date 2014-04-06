@@ -177,7 +177,6 @@
 <BLANK LINE>
 <footer>
 ```
-###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
 
@@ -194,8 +193,6 @@ instant suggestions just below search inputs
 * update component documentation
 ```
 
-###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
-
 ---
 
 ## Exemple 2
@@ -208,8 +205,6 @@ display a form to define a new password
 
 Closes #1234
 ```
-
-###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
 
 ---
 
@@ -226,39 +221,43 @@ see related doc at: http://lucene.apache.org/core/4_7_0/queryparser/org/apache/l
 Closes #789
 ```
 
-###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
+---
+##Type : Quoi?
+
+||
+-- | --
+| feat     | fonctionnalité
+| fix      | correctif
+| refactor | changement technique <br> (ni une fonctionnalité ni un correctif)
+| chore    | changement build/config <br> ou outil tiers pour tester le code
+|          | &nbsp;
+| test     | test manquant
+| docs     | changement dans la documentation
+| style    | changement de formattage
 
 ---
-##Type: Quoi?
 
-* feat: Une fonctionnalité
-* fix: Un correctif
-* refactor: Un changement de code qui n'est ni une fonctionnalité ni un correctif
-* chore: Un changement dans le processus de construction ou configuration d'un outil auxiliaire utilisé pour tester le code
+## Scope : Où?
 
-* test: Un test manquant
-* docs: Un changement dans la documentation
-* style: Un changement de formattage
+* <!-- .element: class="fragment" --> Optionnel
+* <!-- .element: class="fragment" --> Listez vos scopes
+* <!-- .element: class="fragment" --> Faites les évoluer dans le temps
 
----
+* <!-- .element: class="fragment" --> product
+* <!-- .element: class="fragment" --> editorial
+* <!-- .element: class="fragment" --> family
+* <!-- .element: class="fragment" --> model
+* <!-- .element: class="fragment" --> attribut
 
-## Scope: Où?
-
-Choississez vos scopes, listez les et faites les évoluer au cours du temps
-
-* product
-* editorial
-* family
-* model
-* attribut
-
-
-* (optionnel)
+* <!-- .element: class="fragment" --> (optionnel)
 
 ---
+
 ##Subject: (Pour)quoi?
 
-Description des changements et de ce que cela implique
+* Description des changements
+
+---
 
 ##Body: Comment?
 
