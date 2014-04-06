@@ -1,4 +1,6 @@
-# Git++ : Passez au niveau supérieur de la gestion de version
+# Git++
+
+*Passez au niveau supérieur<br>de la gestion de version*
 
 ---
 
@@ -38,43 +40,85 @@
 
 ### Commit by stack
 
-![commit by stack](img/commitByStack.png)
+||
+-- | -- | --
+* | 1aa884d | repair test
+* | 1d6dce9 | database stuff
+* | a1751a5 | add more ui
+* | aae0c16 | add tests
+* | 0a9f8b4 | init service
+* | a3cbbc1 | init ui
 
 ---
 
 ### Merge
 
-![merge](img/merge.png)
+||
+--  | -- | --
+*   | 66d8bdd | Merge branch 'search' into master
+¦\  ||
+¦ * | dba5ed1 | really crazy
+* ¦ | dbdeb5c | totally crazy
+¦/  ||
+*   | 52f17e2 | Merge branch 'login' into master
+¦\  ||
+¦ * | d7efdff | add foobar
+* ¦ | 31f7ab3 | crazy commit
+¦/  ||
 
 ---
 
 ### Devinette
 
-![one work commit](img/oneWordCommit.png)
+||
+-- | -- | --
+* | c0d5c87 | ..
+* | 07fc819 | kikoolol
+* | ba6383e | tests
+* | 04354b7 | css
+* | 01c3700 | save
 
 ---
 
 ### Revert
 
-![revert](img/revert.png)
+||
+-- | -- | --
+* | eb392a4 | add save on product listing with fix
+* | fa18bda | Revert "add save on product listing"
+* | 0018f52 | add logout
+* | 1b0a6dc | add save on product listing
+* | a99dab8 | add save on product listing
 
 ---
 
 ### Test
 
-![test](img/test.png)
+||
+-- | -- | --
+* | 9c09c68 | test
 
 ---
 
 ### User Story 1234
 
-![us1234](img/US1234.png)
+||
+-- | -- | --
+* | a84a4ab | US1234 ok
+* | c68cc3f | US1234 fix
+* | 434abc5 | US1234
+* | de3e44f | US1234
 
 ---
 
 ### Work In Progress
 
-![wip](img/wip.png)
+||
+-- | -- | --
+* | 44a7b64 | WIP
+* | 28d6f8d | wip
+* | 3697320 | wip
+* | 5d994c4 | wip
 
 ---
 
@@ -84,7 +128,15 @@
 
 ### Un historique propre
 
-![good history](img/goodHistory.png)
+||
+-- | -- | --
+* | 8fd025c | refactor(search): use a regex to escape special chars
+* | 5a857ff | test(login): verify error display for bad email format
+* | 57075a4 | fix(search): find products containing special chars
+* | 2fc4a21 | refactor(login): extract login controller to ...
+* | 2579469 | chore: update oauth plugin to latest security fix
+* | 4548866 | feat(login): add remember me option
+* | 696bdd2 | feat(login): allow reset password with email
 
 ---
 
@@ -205,7 +257,7 @@ Choississez vos scopes, listez les et faites les évoluer au cours du temps
 * model
 * attribut
 <br/>
-<br/> 
+<br/>
 * (optionnel)
 
 ---
