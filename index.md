@@ -291,24 +291,92 @@ form: add empty fields behavior info message (23882829)
 ```
 
 ---
-##Git rebase
 
-![git rebase target](img/git-tutorial_rebase-target.png)
+<!-- .slide: data-transition="none" -->
 
----
-##Git rebase
+## Git rebase
 
-![git rebase target](img/git-tutorial_rebase.png)
+![git rebase target](img/git-01.png)
 
 ---
-##Git merge
 
-![git rebase target](img/git-tutorial_merge-three-way.png)
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-02.png)
 
 ---
-##Git rebase
 
-![git rebase target](img/git-tutorial_rebase-merge.png)
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-03.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-04.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-05.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-06.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-rebase-01.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-rebase-02.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-rebase-03.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git merge
+
+![git rebase target](img/git-06.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git merge
+
+![git rebase target](img/git-merge-01.png)
 
 ---
 
