@@ -6,33 +6,38 @@
 
 ---
 
-# man git (>_<)
+<!-- .slide: data-background="img/cockpit.jpg" data-background-size="cover" -->
 
-![commit by stack](img/cockpit.jpg)
-
----
-
-# Git != SVN
-
-![commit by stack](img/marteau.jpg)
+<!-- .element: class="fullImageCaption" -->
+`man git (>_<)`
 
 ---
 
-# Git, un outil multi-fonction!
+<!-- .slide: data-background="img/marteau.jpg" data-background-size="cover" -->
 
-![commit by stack](img/couteau-suisse.jpg)
-
----
-
-# Git, un outil de précision!
-
-![commit by stack](img/katana.jpg)
+<!-- .element: class="fullImageCaption" -->
+Git != SVN
 
 ---
 
-# Git, une outil de précision multi-fonction!
+<!-- .slide: data-background="url(img/couteau-suisse.jpg)" data-background-size="cover" -->
 
-![commit by stack](img/katana-couteau-suisse.png)
+<!-- .element: class="fullImageCaption" -->
+Git, un outil multi-fonction!
+
+---
+
+<!-- .slide: data-background="url(img/katana.jpg)" data-background-size="cover" -->
+
+<!-- .element: class="fullImageCaption" -->
+Git, un outil de précision!
+
+---
+
+<!-- .slide: data-background="url(img/katana-couteau-suisse.png)" data-background-size="cover" -->
+
+<!-- .element: class="fullImageCaption" -->
+Git, une outil de précision multi-fonction!
 
 ---
 
@@ -109,7 +114,7 @@
 
 <!-- .slide: data-background="#F5AF33" -->
 
-## La qualité de l'historique du code ? Mais pourquoi faire ?
+# La qualité de l'historique du code ? <br> Mais pourquoi faire ?
 
 ---
 
@@ -304,9 +309,11 @@ form: add empty fields behavior info message (23882829)
 ![git rebase target](img/git-tutorial_rebase-merge.png)
 
 ---
-##Git merge vs rebase
 
-![git rebase vs merge](img/clean-vs-dirty-water.jpg)
+<!-- .slide: data-background="img/clean-vs-dirty-water.jpg" data-background-size="cover" -->
+
+<!-- .element: class="fullImageCaption" -->
+Git merge vs rebase
 
 ---
 ##Git merge vs rebase

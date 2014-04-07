@@ -40,6 +40,19 @@ body {
 }
 
 /*********************************************
+ * SLIDES
+ *********************************************/
+
+.reveal .fullImageCaption {
+  background: rgba(255, 255, 255, .9);
+  margin-left: -50%;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 20px 0;
+  width: 200%;
+}
+
+/*********************************************
  * IMAGES
  *********************************************/
 .reveal section img {
