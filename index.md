@@ -1,3 +1,5 @@
+<!-- .slide: data-background="#F5AF33" -->
+
 # Git++
 
 *Passez au niveau supérieur<br>de la gestion de version*
@@ -33,6 +35,8 @@
 ![commit by stack](img/katana-couteau-suisse.png)
 
 ---
+
+<!-- .slide: data-background="#F5AF33" -->
 
 # Un historique sale
 
@@ -103,6 +107,8 @@
 
 ---
 
+<!-- .slide: data-background="#F5AF33" -->
+
 ## La qualité de l'historique du code ? Mais pourquoi faire ?
 
 ---
@@ -144,6 +150,8 @@
 ![Pull request](img/pull-request-with-detailed-commits.png)
 
 ---
+
+<!-- .slide: data-background="#F5AF33" -->
 
 # Donner du sens aux changements du code
 
@@ -321,8 +329,13 @@ form: add empty fields behavior info message (23882829)
 * Découper
 
 ---
+
+<!-- .slide: data-background="#F5AF33" -->
+
 #DEMO
+
 ---
+
 ##Git merge vs rebase
 
 * \+ historique simple

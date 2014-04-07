@@ -1,14 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Francois+One|Open+Sans:400,700);
 
 body {
-  background: #53B6BC;
-  background: -moz-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #FFF), color-stop(100%, #53B6BC));
-  background: -webkit-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
-  background: -o-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
-  background: -ms-radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
-  background: radial-gradient(center, circle cover, #FFF 0%, #53B6BC 100%);
-  background-color: #FFF;
+  background: #F5AF33;
+  background: #55E0E6;
 }
 
 .reveal {
@@ -96,3 +90,4 @@ body {
 .reveal td:nth-child(3) {
   color: #333;
 }
+
