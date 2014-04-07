@@ -4,7 +4,7 @@
 
 ---
 
-# Git c'est dur!
+# man git (>_<)
 
 ![commit by stack](img/cockpit.jpg)
 
@@ -16,29 +16,29 @@
 
 ---
 
-# Git c'est pour les hommes à tout faire!
+# Git, un outil multi-fonction!
 
-![commit by stack](img/couteau-suisse2.jpg)
+![commit by stack](img/couteau-suisse.jpg)
 
 ---
 
-# Git c'est pour les ninja!
+# Git, un outil de précision!
 
 ![commit by stack](img/katana.jpg)
 
 ---
 
-# Git c'est pour les ninjas à tout faire!
+# Git, une outil de précision multi-fonction!
 
 ![commit by stack](img/katana-couteau-suisse.png)
 
 ---
 
-## Historique crappy
+# Un historique sale
 
 ---
 
-### Commit by stack
+## Commit by stack
 
 ||
 -- | -- | --
@@ -80,26 +80,6 @@
 
 ---
 
-### Revert
-
-||
--- | -- | --
-* | eb392a4 | add save on product listing with fix
-* | fa18bda | Revert "add save on product listing"
-* | 0018f52 | add logout
-* | 1b0a6dc | add save on product listing
-* | a99dab8 | add save on product listing
-
----
-
-### Test
-
-||
--- | -- | --
-* | 9c09c68 | test
-
----
-
 ### User Story 1234
 
 ||
@@ -116,13 +96,14 @@
 ||
 -- | -- | --
 * | 44a7b64 | WIP
-* | 28d6f8d | wip
+* | 28d6f8d | ..
+* | 3697320 | ..
 * | 3697320 | wip
 * | 5d994c4 | wip
 
 ---
 
-## Qualité de l'historique du code ? Pourquoi faire ?
+## La qualité de l'historique du code ? Mais pourquoi faire ?
 
 ---
 
@@ -157,6 +138,8 @@
 ![nouveau](img/devNew.jpg)
 
 ---
+
+### Collaboration via Pull Request
 
 ![Pull request](img/pull-request-with-detailed-commits.png)
 
@@ -276,7 +259,7 @@ Closes #789
 ## Changelog
 
 ```
-Changelog (mettre une image)
+Changelog
 
 v5.8.2 (2014-02-21)
 
@@ -324,7 +307,7 @@ form: add empty fields behavior info message (23882829)
 * \- perte du contexte de travail
 * \- plus difficile à maitriser
 
-###attention au rebase de commits publics
+###attention au rebase de commits partagés
 
 ---
 
@@ -346,7 +329,7 @@ form: add empty fields behavior info message (23882829)
 * \- perte du contexte de travail
 * \- plus difficile à maitriser
 
-###attention au rebase de commits publics
+###attention au rebase de commits partagés
 
 ---
 ##Git rebase ? Git commit ? Git merge ?
@@ -354,6 +337,7 @@ form: add empty fields behavior info message (23882829)
 * Code privé ? rebase
 * Code review ? commit
 * Code ready ? rebase
+* Code merge ? merge !
 
 ---
 ##Changelog
