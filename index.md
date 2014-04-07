@@ -114,7 +114,9 @@ Git, une outil de précision multi-fonction!
 
 <!-- .slide: data-background="#F5AF33" -->
 
-# La qualité de l'historique du code ? <br> Mais pourquoi faire ?
+# La qualité de l'historique du code ?
+
+### Mais pourquoi faire ?
 
 ---
 
