@@ -4,6 +4,10 @@
 
 *Passez au niveau supérieur<br>de la gestion de version*
 
+Note:
+Qui utilise git ? <br>
+Qui a trouvé git complexe au début ?
+
 ---
 
 <!-- .slide: data-background="img/cockpit.jpg" data-background-size="cover" -->
