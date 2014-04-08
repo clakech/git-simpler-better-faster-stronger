@@ -462,24 +462,11 @@ GRAPHS GIT
 #Changelog
 
 ---
-##Changelog
 
-```bash
-#update your version > edit your config file
-
-grunt changelog
-
-git commit
-
-git push
-```
+<!-- .slide: data-background="img/changelog.png" data-background-size="contain" -->
 
 ---
-##Changelog
 
-```bash
-grunt build bump-only:minor changelog bump-commit
+<!-- .slide: data-background="#F5AF33" -->
 
-```
-
----
+#DEMO
