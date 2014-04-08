@@ -297,9 +297,9 @@ chore: <subject>
 
 ---
 
-<!-- .slide: data-background="#F5AF33" -->
+<!-- .slide: data-background="#F5AF33" class="codeTitle" -->
 
-## `git rebase --interactive`
+# `git rebase -i`
 
 ---
 
@@ -307,7 +307,9 @@ chore: <subject>
 
 ---
 
-## `git merge`
+<!-- .slide: class="codeTitle" -->
+
+# `git merge`
 
 ---
 
@@ -441,9 +443,9 @@ GRAPHS GIT
 
 ---
 
-<!-- .slide: data-background="#F5AF33" -->
+<!-- .slide: data-background="#F5AF33" class="codeTitle" -->
 
-## `git rebase --interactive`
+# `git rebase -i`
 
 ---
 

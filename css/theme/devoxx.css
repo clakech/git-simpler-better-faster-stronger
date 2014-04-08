@@ -4,12 +4,14 @@
   font-weight: 400;
   src: local('Francois One Regular'), local('FrancoisOne-Regular'), url(../../fonts/bYbkq2nU2TSx4SwFbz5sCHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(../../fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -46,7 +48,7 @@ body {
 }
 
 /*********************************************
- * SPECIAL first slide
+ * TITLES
  *********************************************/
 .reveal section:first-child {
   font-size: 50px;
@@ -54,6 +56,10 @@ body {
 
 .reveal section:first-child h1 {
   font-size: 250px;
+}
+
+.reveal .codeTitle h1 {
+  text-transform: none;
 }
 
 /*********************************************
