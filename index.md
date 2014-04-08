@@ -164,7 +164,7 @@ Git, une outil de précision multi-fonction!
 
 <!-- .slide: data-background="#F5AF33" -->
 
-# Donner du sens aux changements du code
+# Donnons du sens aux changements du code
 
 ### Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
@@ -282,7 +282,7 @@ chore: <subject>
 
 <!-- .slide: data-background="#F5AF33" -->
 
-# Retravailler son historique
+# Retravaillons notre historique
 
 ---
 
