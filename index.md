@@ -261,7 +261,7 @@ chore: <subject>
 
 ---
 
-###Breaking Changes
+##Breaking Changes
 
 * (optionnel)
 * Changements incompatibles
