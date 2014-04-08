@@ -66,13 +66,13 @@ Git, une outil de précision multi-fonction!
 --  | -- | --
 *   | 66d8bdd | Merge branch 'search' into master
 ¦\  ||
-¦ * | dba5ed1 | really crazy
-* ¦ | dbdeb5c | totally crazy
+¦ * | dba5ed1 | search by keyword
+* ¦ | dbdeb5c | create product
 ¦/  ||
 *   | 52f17e2 | Merge branch 'login' into master
 ¦\  ||
-¦ * | d7efdff | add foobar
-* ¦ | 31f7ab3 | crazy commit
+¦ * | d7efdff | login by email
+* ¦ | 31f7ab3 | create customer
 ¦/  ||
 
 ---
@@ -162,7 +162,7 @@ Git, une outil de précision multi-fonction!
 
 # Donner du sens aux changements du code
 
-###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence?)
+###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence ?)
 
 ---
 
@@ -181,14 +181,10 @@ Git, une outil de précision multi-fonction!
 ## Exemple 1
 
 ```diff
-feat(search): add automatic suggestions
+feat(search): suggest instant search queries
 
 we now use the new feature from the search API to provide
 instant suggestions just below search inputs
-
-* update component implementation to support automatic suggestion
-* update component tests
-* update component documentation
 ```
 
 ---
@@ -196,25 +192,13 @@ instant suggestions just below search inputs
 ## Exemple 2
 
 ```diff
-feat(login): reset password on demand
-
-send an email with unique reset url
-display a form to define a new password
-
-Closes #1234
-```
-
----
-
-## Exemple 3
-
-```diff
 fix(search): find products containing special chars
 
 escape specials chars before search API call
 
 special characters: \+-&|!(){}[]^"~*?:
-see related doc at: http://lucene.apache.org/core/4_7_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Escaping_Special_Characters
+see related doc at:
+http://lucene.apache.org/core/4_7_0/queryparser
 
 Closes #789
 ```
@@ -226,8 +210,8 @@ Closes #789
 -- | --
 | feat     | fonctionnalité
 | fix      | correctif
-| refactor | changement technique <br> (ni une fonctionnalité ni un correctif)
-| chore    | changement build/config <br> ou outil tiers pour tester le code
+| refactor | changement technique
+| chore    | changement build/config
 |          | &nbsp;
 | test     | test manquant
 | docs     | changement dans la documentation
@@ -237,64 +221,95 @@ Closes #789
 
 ## Scope : Où?
 
-* <!-- .element: class="fragment" --> Optionnel
-* <!-- .element: class="fragment" --> Listez vos scopes
-* <!-- .element: class="fragment" --> Faites les évoluer dans le temps
+* (optionnel)
+* Listez vos scopes
+* Faites les évoluer dans le temps
 
-* <!-- .element: class="fragment" --> product
-* <!-- .element: class="fragment" --> editorial
-* <!-- .element: class="fragment" --> family
-* <!-- .element: class="fragment" --> model
-* <!-- .element: class="fragment" --> attribut
-
-* <!-- .element: class="fragment" --> (optionnel)
-
+```diff
+fix(search): <subject>
+feat(editorial): <subject>
+refactor(family): <subject>
+test(model): <subject>
+chore: <subject>
+```
 ---
 
 ##Subject: (Pour)quoi?
 
 * Description des changements
+* Point de vue utilisateur
 
 ---
 
 ##Body: Comment?
 
 * (optionnel)
+* Détails sur le sujet
+* Détails d'implémentation
+
+---
 
 ##Footer: Référence?
 
 * (optionnel)
+* Identifiant de bug fix
+* Identifiant de user story
+
+---
 
 ###Breaking Changes
 
 * (optionnel)
+* Changements incompatibles
 
 ---
 
-## Changelog
+## Convention de Commit
 
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
 ```
-Changelog
 
-v5.8.2 (2014-02-21)
+---
 
-Bug Fixes
+<!-- .slide: data-background="#F5AF33" -->
 
-family:
-	split files into services and directives (3a15c697)
-	update style on multiple checks on queries (97185f0e)
-queryPicker: replace != by ≠ in query picker operands (f16b3f7c)
+# Retravailler son historique
 
-Features
+---
 
-form: add empty fields behavior info message (23882829)
-```
+## Ce qu'il faut savoir faire <br> sur un commit :
+
+* Renommer
+* Modifier
+* Réordonner
+* Fusionner
+* Insérer
+* Supprimer
+
+---
+
+<!-- .slide: data-background="#F5AF33" -->
+
+## `git rebase --interactive`
+
+---
+
+# WAT ??
+
+---
+
+## `git merge`
 
 ---
 
 <!-- .slide: data-transition="none" -->
 
-## Git rebase
+## Feature branch
 
 ![git rebase target](img/git-01.png)
 
@@ -302,7 +317,7 @@ form: add empty fields behavior info message (23882829)
 
 <!-- .slide: data-transition="none" -->
 
-## Git rebase
+## Feature branch
 
 ![git rebase target](img/git-02.png)
 
@@ -310,7 +325,7 @@ form: add empty fields behavior info message (23882829)
 
 <!-- .slide: data-transition="none" -->
 
-## Git rebase
+## Feature branch
 
 ![git rebase target](img/git-03.png)
 
@@ -318,7 +333,7 @@ form: add empty fields behavior info message (23882829)
 
 <!-- .slide: data-transition="none" -->
 
-## Git rebase
+## Feature branch
 
 ![git rebase target](img/git-04.png)
 
@@ -326,7 +341,7 @@ form: add empty fields behavior info message (23882829)
 
 <!-- .slide: data-transition="none" -->
 
-## Git rebase
+## Feature branch
 
 ![git rebase target](img/git-05.png)
 
@@ -334,9 +349,33 @@ form: add empty fields behavior info message (23882829)
 
 <!-- .slide: data-transition="none" -->
 
-## Git rebase
+## Feature branch
 
 ![git rebase target](img/git-06.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git merge
+
+![git rebase target](img/git-merge-01.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Feature branch
+
+![git rebase target](img/git-merge-02.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git merge
+
+![git rebase target](img/git-merge-01.png)
 
 ---
 
@@ -372,14 +411,6 @@ form: add empty fields behavior info message (23882829)
 
 ---
 
-<!-- .slide: data-transition="none" -->
-
-## Git merge
-
-![git rebase target](img/git-merge-01.png)
-
----
-
 <!-- .slide: data-background="img/clean-vs-dirty-water.jpg" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
@@ -392,18 +423,23 @@ Git merge vs rebase
 * \- perte du contexte de travail
 * \- plus difficile à maitriser
 
+---
+
+<!-- .slide: data-background="#FF0000" -->
+
+##Git merge vs rebase
+
 ###attention au rebase de commits partagés
 
 ---
 
-## Ce qu'il faut savoir faire sur un commit :
+GRAPHS GIT
 
-* Renommer
-* Modifier
-* Réordonner
-* Fusionner
-* Supprimer
-* Découper
+---
+
+<!-- .slide: data-background="#F5AF33" -->
+
+## `git rebase --interactive`
 
 ---
 
@@ -412,22 +448,18 @@ Git merge vs rebase
 #DEMO
 
 ---
-
-##Git merge vs rebase
-
-* \+ historique simple
-* \- perte du contexte de travail
-* \- plus difficile à maitriser
-
-###attention au rebase de commits partagés
-
----
 ##Git rebase ? Git commit ? Git merge ?
 
 * Code privé ? rebase
 * Code review ? commit
 * Code ready ? rebase
 * Code merge ? merge !
+
+---
+
+<!-- .slide: data-background="#F5AF33" -->
+
+#Changelog
 
 ---
 ##Changelog
