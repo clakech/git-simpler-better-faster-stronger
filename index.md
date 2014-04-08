@@ -166,7 +166,7 @@ Git, une outil de précision multi-fonction!
 
 # Donner du sens aux changements du code
 
-###Quoi ? Où ? (Pour)quoi ? (Comment ?) (Référence ?)
+### Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
 ---
 
@@ -182,7 +182,7 @@ Git, une outil de précision multi-fonction!
 
 ---
 
-## Exemple 1
+## Exemple : Fonctionnalité
 
 ```diff
 feat(search): suggest instant search queries
@@ -193,7 +193,7 @@ instant suggestions just below search inputs
 
 ---
 
-## Exemple 2
+## Exemple : Résolution de bug
 
 ```diff
 fix(search): find products containing special chars
