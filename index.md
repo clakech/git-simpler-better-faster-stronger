@@ -380,6 +380,14 @@ chore: <subject>
 
 <!-- .slide: data-transition="none" -->
 
+## Feature branch
+
+![git rebase target](img/git-07.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
 ## Git merge
 
 ![git rebase target](img/git-merge-01.png)
@@ -398,7 +406,23 @@ chore: <subject>
 
 ## Git merge
 
-![git rebase target](img/git-merge-01.png)
+![git rebase target](img/git-merge-03.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git merge
+
+![git rebase target](img/git-merge-04.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Feature branch
+
+![git rebase target](img/git-07.png)
 
 ---
 
@@ -428,9 +452,17 @@ chore: <subject>
 
 <!-- .slide: data-transition="none" -->
 
-## Git merge
+## Git rebase
 
-![git rebase target](img/git-06.png)
+![git rebase target](img/git-rebase-04.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase
+
+![git rebase target](img/git-rebase-05.png)
 
 ---
 
@@ -459,13 +491,65 @@ Git merge vs rebase
 
 ---
 
-GRAPHS GIT
+<!-- .slide: data-background="#F5AF33" class="codeTitle" -->
+
+# `git rebase -i ?`
 
 ---
 
-<!-- .slide: data-background="#F5AF33" class="codeTitle" -->
+<!-- .slide: data-transition="none" -->
 
-# `git rebase -i`
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-01.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-02.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-03.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-04.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-05.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-06.png)
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Git rebase interactive
+
+![git rebase target](img/git-rebase-interactive-07.png)
 
 ---
 
