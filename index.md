@@ -41,7 +41,7 @@ Git, un outil de précision!
 <!-- .slide: data-background="url(img/katana-couteau-suisse.png)" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
-Git, une outil de précision multi-fonction!
+Git, un outil de précision multi-fonction!
 
 ---
 
