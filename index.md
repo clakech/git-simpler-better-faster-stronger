@@ -64,7 +64,7 @@ Git, une outil de précision multi-fonction!
 
 ---
 
-### Merge
+## Merge
 
 ||
 --  | -- | --
@@ -81,7 +81,7 @@ Git, une outil de précision multi-fonction!
 
 ---
 
-### Devinette
+## Devinette
 
 ||
 -- | -- | --
@@ -93,7 +93,7 @@ Git, une outil de précision multi-fonction!
 
 ---
 
-### User Story 1234
+## User Story 1234
 
 ||
 -- | -- | --
@@ -104,7 +104,7 @@ Git, une outil de précision multi-fonction!
 
 ---
 
-### Work In Progress
+## Work In Progress
 
 ||
 -- | -- | --
@@ -120,11 +120,11 @@ Git, une outil de précision multi-fonction!
 
 # La qualité de l'historique du code ?
 
-### Mais pourquoi faire ?
+## Mais pourquoi faire ?
 
 ---
 
-### Un historique propre
+## Un historique propre
 
 ||
 -- | -- | --
@@ -138,25 +138,25 @@ Git, une outil de précision multi-fonction!
 
 ---
 
-### Perte de mémoire
+## Perte de mémoire
 
 ![what is this](img/devWhatIsThis.jpg)
 
 ---
 
-### Retour de vacances
+## Retour de vacances
 
 ![on vacation](img/devOnVacation.jpg)
 
 ---
 
-### Arrivée d'un nouveau
+## Arrivée d'un nouveau
 
 ![nouveau](img/devNew.jpg)
 
 ---
 
-### Collaboration via Pull Request
+## Collaboration via Pull Request
 
 ![Pull request](img/pull-request-with-detailed-commits.png)
 
@@ -166,7 +166,7 @@ Git, une outil de précision multi-fonction!
 
 # Donnons du sens aux changements du code
 
-### Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
+## Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
 ---
 
@@ -208,7 +208,7 @@ Closes #789
 ```
 
 ---
-##Type : Quoi?
+##Type : Quoi ?
 
 ||
 -- | --
@@ -223,29 +223,39 @@ Closes #789
 
 ---
 
-## Scope : Où?
+## Scope : Où ?
+
+<!-- .slide: class="oneColList" -->
 
 * (optionnel)
 * Listez vos scopes
 * Faites les évoluer dans le temps
 
+---
+
+## Exemples de scopes
+
 ```diff
 fix(search): <subject>
-feat(editorial): <subject>
-refactor(family): <subject>
-test(model): <subject>
+feat(products): <subject>
+refactor(login): <subject>
+test(customers): <subject>
 chore: <subject>
 ```
 ---
 
-##Subject: (Pour)quoi?
+<!-- .slide: class="oneColList" -->
+
+##Subject: (Pour)quoi ?
 
 * Description des changements
 * Point de vue utilisateur
 
 ---
 
-##Body: Comment?
+<!-- .slide: class="oneColList" -->
+
+##Body: Comment ?
 
 * (optionnel)
 * Détails sur le sujet
@@ -253,13 +263,17 @@ chore: <subject>
 
 ---
 
-##Footer: Référence?
+<!-- .slide: class="oneColList" -->
+
+##Footer: Référence ?
 
 * (optionnel)
 * Identifiant de bug fix
 * Identifiant de user story
 
 ---
+
+<!-- .slide: class="oneColList" -->
 
 ##Breaking Changes
 
@@ -286,7 +300,10 @@ chore: <subject>
 
 ---
 
+<!-- .slide: class="twoColList" -->
+
 ## Ce qu'il faut savoir faire <br> sur un commit :
+
 
 * Renommer
 * Modifier
@@ -423,17 +440,20 @@ chore: <subject>
 Git merge vs rebase
 
 ---
+
+<!-- .slide: class="oneColList" -->
+
 ##Git merge vs rebase
 
-* \+ historique simple
-* \- perte du contexte de travail
-* \- plus difficile à maitriser
+* ;-) historique simple
+* :-( perte du contexte de travail
+* :-( plus difficile à maitriser
 
 ---
 
-<!-- .slide: data-background="#FF0000" -->
+<!-- .slide: data-background="#5A0000" class="warningTitle" -->
 
-##Git merge vs rebase
+#Git merge vs rebase
 
 ###attention au rebase de commits partagés
 
@@ -454,6 +474,9 @@ GRAPHS GIT
 #DEMO
 
 ---
+
+<!-- .slide: class="oneColList" -->
+
 ##Git rebase ? Git commit ? Git merge ?
 
 * Code privé ? rebase

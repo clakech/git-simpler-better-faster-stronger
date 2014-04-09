@@ -58,8 +58,13 @@ body {
   font-size: 250px;
 }
 
-.reveal .codeTitle h1 {
+.reveal .codeTitle h1,
+.reveal .codeTitle h2 {
   text-transform: none;
+}
+
+.reveal .warningTitle {
+  color: #FFF;
 }
 
 /*********************************************
@@ -89,15 +94,58 @@ body {
  *********************************************/
 .reveal pre {
   border: 5px solid #F5AF33;
+  font-size: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  font-size: 30px;
   margin: 75px auto;
   width: 95%;
 }
 
 .reveal pre code {
   padding: 20px;
+}
+
+/*********************************************
+ * LISTS
+ *********************************************/
+
+.reveal ol,
+.reveal ul {
+  margin-left: 0;
+}
+
+.reveal li {
+  line-height: 1.5;
+  font-size: 50px;
+  list-style: none;
+}
+
+.reveal .oneColList ul,
+.reveal .twoColList ul {
+  margin-top: 40px;
+}
+
+.reveal .oneColList ul {
+  background: #FFF;
+  border: 5px solid #F5AF33;
+  padding: 10px 30px;
+}
+
+.reveal .twoColList ul {
+  width: 1000px;
+}
+
+.reveal .oneColList li,
+.reveal .twoColList li {
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.reveal .twoColList li {
+  background: #FFF;
+  border: 5px solid #F5AF33;
+  display: inline-block;
+  width: 420px;
 }
 
 /*********************************************
