@@ -257,6 +257,13 @@ Des utilisateurs contents
 
 ---
 
+<!-- .slide: data-background="img/happy-po.png" data-background-size="cover" -->
+
+<!-- .element: class="fullImageCaption" -->
+Un Product Owner content
+
+---
+
 <!-- .slide: data-background="#F5AF33" -->
 
 # Améliorons <br> notre historique
