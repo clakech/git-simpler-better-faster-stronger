@@ -98,11 +98,10 @@ En cas d'absence
 
 ---
 
-## Arrivée d'un nouveau
+<!-- .slide: data-background="img/newbie.jpg" data-background-size="cover" -->
 
-un geek perdu
-
-série lost
+<!-- .element: class="fullImageCaption" -->
+Arrivée d'un nouveau
 
 ---
 
