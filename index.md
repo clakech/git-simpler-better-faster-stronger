@@ -233,6 +233,13 @@ Identifiant de user story <br>
 
 ---
 
+<!-- .slide: data-background="img/happy-dev.jpg" data-background-size="cover" -->
+
+<!-- .element: class="fullImageCaption" -->
+Des développeurs contents
+
+---
+
 <!-- .slide: data-background="#F5AF33" -->
 
 # Générer <br> un changelog
