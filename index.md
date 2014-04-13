@@ -250,6 +250,13 @@ Des développeurs contents
 
 ---
 
+<!-- .slide: data-background="img/happy-users.jpg" data-background-size="cover" -->
+
+<!-- .element: class="fullImageCaption" -->
+Des utilisateurs contents
+
+---
+
 <!-- .slide: data-background="#F5AF33" -->
 
 # Améliorons <br> notre historique
