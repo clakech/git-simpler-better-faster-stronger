@@ -10,11 +10,13 @@ Qui a trouvé git complexe au début ?
 
 ---
 
-3 points importants pour améliorer la qualité de son produit
+<!-- .slide: data-background="#F5AF33" class="oneColList" -->
 
-* un vision
-* une méthode
-* des outils
+##3 points pour améliorer la qualité
+
+* Une vision
+* Une méthode
+* Des outils
 
 ---
 
