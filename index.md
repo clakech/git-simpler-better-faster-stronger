@@ -10,6 +10,14 @@ Qui a trouvé git complexe au début ?
 
 ---
 
+3 points importants pour améliorer la qualité de son produit
+
+* un vision
+* une méthode
+* des outils
+
+---
+
 <!-- .slide: data-background="img/cockpit.jpg" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
@@ -31,17 +39,14 @@ Git, un outil multi-fonction!
 
 ---
 
-<!-- .slide: data-background="url(img/katana.jpg)" data-background-size="cover" -->
-
-<!-- .element: class="fullImageCaption" -->
-Git, un outil de précision!
-
----
-
 <!-- .slide: data-background="url(img/katana-couteau-suisse.png)" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
 Git, un outil de précision multi-fonction!
+
+Note:
+Git va nous permettre de combattre un fléau trop répondu
+L'historique sale :-(
 
 ---
 
@@ -51,126 +56,69 @@ Git, un outil de précision multi-fonction!
 
 ---
 
-## Commit by stack
+## Un historique sale
 
 ||
 -- | -- | --
-* | 1aa884d | repair test
-* | 1d6dce9 | database stuff
-* | a1751a5 | add more ui
-* | aae0c16 | add tests
-* | 0a9f8b4 | init service
-* | a3cbbc1 | init ui
-
----
-
-## Merge
-
-||
---  | -- | --
-*   | 66d8bdd | Merge branch 'search' into master
+*   | 07fc819 | toto
+*   | ba6383e | tests
+*   | 66d8bdd | Merge branch 'US1234' into master
 ¦\  ||
-¦ * | dba5ed1 | search by keyword
-* ¦ | dbdeb5c | create product
+¦ * | dba5ed1 | US1234 fix
+¦ * | 66d8bdd | Merge master
+¦/¦ ||
+* ¦ | 04354b7 | css
+¦ * | dbdeb5c | US1234
 ¦/  ||
-*   | 52f17e2 | Merge branch 'login' into master
-¦\  ||
-¦ * | d7efdff | login by email
-* ¦ | 31f7ab3 | create customer
-¦/  ||
-
----
-
-## Devinette
-
-||
--- | -- | --
-* | c0d5c87 | ..
-* | 07fc819 | kikoolol
-* | ba6383e | tests
-* | 04354b7 | css
-* | 01c3700 | save
-
----
-
-## User Story 1234
-
-||
--- | -- | --
-* | a84a4ab | US1234 ok
-* | c68cc3f | US1234 fix
-* | 434abc5 | US1234
-* | de3e44f | US1234
-
----
-
-## Work In Progress
-
-||
--- | -- | --
-* | 44a7b64 | WIP
-* | 28d6f8d | ..
-* | 3697320 | ..
-* | 3697320 | wip
-* | 5d994c4 | wip
+*   | 5d994c4 | wip
 
 ---
 
 <!-- .slide: data-background="#F5AF33" -->
 
-# La qualité de l'historique du code ?
+# Un historique propre
 
 ## Mais pourquoi faire ?
 
 ---
 
-## Un historique propre
-
-||
--- | -- | --
-* | 8fd025c | refactor(search): use a regex to escape special chars
-* | 5a857ff | test(login): verify error display for bad email format
-* | 57075a4 | fix(search): find products containing special chars
-* | 2fc4a21 | refactor(login): extract login controller to ...
-* | 2579469 | chore: update oauth plugin to latest security fix
-* | 4548866 | feat(login): add remember me option
-* | 696bdd2 | feat(login): allow reset password with email
-
----
-
 ## Perte de mémoire
 
-![what is this](img/devWhatIsThis.jpg)
+mémoire, cerveau...
 
 ---
 
-## Retour de vacances
+## Absences
 
-![on vacation](img/devOnVacation.jpg)
+image de vacances
 
 ---
 
 ## Arrivée d'un nouveau
 
-![nouveau](img/devNew.jpg)
+un geek perdu
+
+série lost
 
 ---
 
-## Collaboration via Pull Request
+<!-- .slide: data-background="img/pull-request-with-detailed-commits.png" data-background-size="cover" -->
 
-![Pull request](img/pull-request-with-detailed-commits.png)
+<!-- .element: class="fullImageCaption" -->
+Revue de code
 
 ---
 
 <!-- .slide: data-background="#F5AF33" -->
 
-# Donnons du sens aux changements du code
+# Donnons du sens <br> à notre historique
 
-## Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
+Note:
+Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
 ---
 
-## Convention de Commit
+## Conventions de commit
 
 ```diff
 <type>(<scope>): <subject>
@@ -182,13 +130,126 @@ Git, un outil de précision multi-fonction!
 
 ---
 
+## Quoi ?
+
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+||
+-- | --
+| feat     | fonctionnalité
+| fix      | correctif
+| refactor | changement technique
+| chore    | changement build/config
+|          | &nbsp;
+| test     | test manquant
+| docs     | changement dans la documentation
+| style    | changement de formattage
+
+---
+
+## Où ?
+
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+<!-- .slide: class="oneColList" -->
+
+* (optionnel)
+* Listez vos scopes
+* Faites les évoluer dans le temps
+
+---
+
+<!-- .slide: class="oneColList" -->
+
+## (Pour)quoi ?
+
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+* Description des changements
+* Point de vue utilisateur
+
+---
+
+<!-- .slide: class="oneColList" -->
+
+## Comment ?
+
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+* (optionnel)
+* Détails sur le sujet
+* Détails d'implémentation
+
+---
+
+<!-- .slide: class="oneColList" -->
+
+## Référence ?
+
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+* (optionnel)
+* Identifiant de bug fix
+* Identifiant de user story
+
+---
+
+<!-- .slide: class="oneColList" -->
+
+## Breaking Changes
+
+```diff
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+* (optionnel)
+* Changements incompatibles
+
+---
+
 ## Exemple : Fonctionnalité
 
 ```diff
-feat(search): suggest instant search queries
+feat(login): reset password on demand
 
-we now use the new feature from the search API to provide
-instant suggestions just below search inputs
+send an email with unique reset url
+display a form to define a new password
+
+Closes #1234
 ```
 
 ---
@@ -208,95 +269,10 @@ Closes #789
 ```
 
 ---
-##Type : Quoi ?
-
-||
--- | --
-| feat     | fonctionnalité
-| fix      | correctif
-| refactor | changement technique
-| chore    | changement build/config
-|          | &nbsp;
-| test     | test manquant
-| docs     | changement dans la documentation
-| style    | changement de formattage
-
----
-
-## Scope : Où ?
-
-<!-- .slide: class="oneColList" -->
-
-* (optionnel)
-* Listez vos scopes
-* Faites les évoluer dans le temps
-
----
-
-## Exemples de scopes
-
-```diff
-fix(search): <subject>
-feat(products): <subject>
-refactor(login): <subject>
-test(customers): <subject>
-chore: <subject>
-```
----
-
-<!-- .slide: class="oneColList" -->
-
-##Subject: (Pour)quoi ?
-
-* Description des changements
-* Point de vue utilisateur
-
----
-
-<!-- .slide: class="oneColList" -->
-
-##Body: Comment ?
-
-* (optionnel)
-* Détails sur le sujet
-* Détails d'implémentation
-
----
-
-<!-- .slide: class="oneColList" -->
-
-##Footer: Référence ?
-
-* (optionnel)
-* Identifiant de bug fix
-* Identifiant de user story
-
----
-
-<!-- .slide: class="oneColList" -->
-
-##Breaking Changes
-
-* (optionnel)
-* Changements incompatibles
-
----
-
-## Convention de Commit
-
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
----
 
 <!-- .slide: data-background="#F5AF33" -->
 
-# Retravaillons notre historique
+# Améliorons <br> notre historique
 
 ---
 
@@ -334,47 +310,7 @@ chore: <subject>
 
 ## Feature branch
 
-![git rebase target](img/git-01.png)
-
----
-
-<!-- .slide: data-transition="none" -->
-
-## Feature branch
-
-![git rebase target](img/git-02.png)
-
----
-
-<!-- .slide: data-transition="none" -->
-
-## Feature branch
-
-![git rebase target](img/git-03.png)
-
----
-
-<!-- .slide: data-transition="none" -->
-
-## Feature branch
-
 ![git rebase target](img/git-04.png)
-
----
-
-<!-- .slide: data-transition="none" -->
-
-## Feature branch
-
-![git rebase target](img/git-05.png)
-
----
-
-<!-- .slide: data-transition="none" -->
-
-## Feature branch
-
-![git rebase target](img/git-06.png)
 
 ---
 
@@ -415,6 +351,12 @@ chore: <subject>
 ## Git merge
 
 ![git rebase target](img/git-merge-04.png)
+
+---
+
+<!-- .slide: class="codeTitle" -->
+
+# `git rebase`
 
 ---
 
