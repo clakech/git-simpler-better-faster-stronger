@@ -123,153 +123,113 @@ Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
 ## Conventions de commit
 
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
----
-
-## Quoi ?
-
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
-||
--- | --
-| feat     | fonctionnalité
-| fix      | correctif
-| refactor | changement technique
-| chore    | changement build/config
-|          | &nbsp;
-| test     | test manquant
-| docs     | changement dans la documentation
-| style    | changement de formattage
-
----
-
-## Où ?
-
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
 <!-- .slide: class="oneColList" -->
 
-* (optionnel)
-* Listez vos scopes
-* Faites les évoluer dans le temps
+* AngularJS
+* Karma runner
+* Angular UI
 
 ---
 
-<!-- .slide: class="oneColList" -->
+<!-- .slide: data-transition="none" -->
 
-## (Pour)quoi ?
+## Conventions de commit
 
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
+![git rebase target](img/conventions-00.png)
 
-* Description des changements
-* Point de vue utilisateur
+Note:
+Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
 ---
 
-<!-- .slide: class="oneColList" -->
+<!-- .slide: data-transition="none" -->
 
-## Comment ?
+## Conventions de commit
 
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
-* (optionnel)
-* Détails sur le sujet
-* Détails d'implémentation
+![git rebase target](img/conventions-01-type.png)
 
 ---
 
-<!-- .slide: class="oneColList" -->
+<!-- .slide: data-transition="none" -->
 
-## Référence ?
+## Conventions de commit
 
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
+![git rebase target](img/conventions-01-type-list.png)
 
-* (optionnel)
-* Identifiant de bug fix
-* Identifiant de user story
+Note:
+feat     : fonctionnalité <br>
+fix      : correctif <br>
+refactor : changement technique <br>
+chore    : changement build/config <br>
+test     : test manquant <br>
+docs     : changement dans la documentation <br>
+style    : changement de formattage
+
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Conventions de commit
+
+![git rebase target](img/conventions-02-scope.png)
+
+Note:
+(optionnel) <br>
+Listez vos scopes <br>
+Faites les évoluer dans le temps
 
 ---
 
-<!-- .slide: class="oneColList" -->
+<!-- .slide: data-transition="none" -->
 
-## Breaking Changes
+## Conventions de commit
 
-```diff
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
+![git rebase target](img/conventions-03-subject.png)
 
-* (optionnel)
-* Changements incompatibles
+Note:
+Description des changements <br>
+Point de vue utilisateur (feat, fix)
+---
+
+<!-- .slide: data-transition="none" -->
+
+## Conventions de commit
+
+![git rebase target](img/conventions-04-body.png)
+
+Note:
+(optionnel) <br>
+Détails sur le sujet <br>
+Détails d'implémentation
 
 ---
+
+<!-- .slide: data-transition="none" -->
+
+## Conventions de commit
+
+![git rebase target](img/conventions-05-footer.png)
+
+Note:
+(optionnel) <br>
+Identifiant de bug fix <br>
+Identifiant de user story <br>
+
+---
+
+<!-- .slide: data-transition="none" -->
 
 ## Exemple : Fonctionnalité
 
-```diff
-feat(login): reset password on demand
-
-send an email with unique reset url
-display a form to define a new password
-
-Closes #1234
-```
+![git rebase target](img/conventions-ex-01-feat.png)
 
 ---
 
+<!-- .slide: data-transition="none" -->
+
 ## Exemple : Résolution de bug
 
-```diff
-fix(search): find products containing special chars
-
-escape specials chars before search API call
-
-special characters: \+-&|!(){}[]^"~*?:
-see related doc at:
-http://lucene.apache.org/core/4_7_0/queryparser
-
-Closes #789
-```
+![git rebase target](img/conventions-ex-02-fix.png)
 
 ---
 

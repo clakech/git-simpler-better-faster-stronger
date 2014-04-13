@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="conventions.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.68135912"
+     inkscape:cx="849.16209"
+     inkscape:cy="367.6818"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3589"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1176"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3385">
+      <rect
+         inkscape:export-ydpi="250"
+         inkscape:export-xdpi="250"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-00.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect4127"
+         width="671.11108"
+         height="260"
+         x="2.3203124e-06"
+         y="0.00012253321"
+         ry="1.8591877" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text4133"
+         y="54.273598"
+         x="38.605675"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           y="54.273598"
+           x="38.605675"
+           id="tspan4135"
+           sodipodi:role="line">&lt;type&gt;<tspan
+   id="tspan4139"
+   style="line-height:150%;fill:#1c00ff;fill-opacity:1">(&lt;scope&gt;)</tspan>: <tspan
+   id="tspan4141"
+   style="line-height:150%;fill:#009400;fill-opacity:1">&lt;subject&gt;</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan4143"
+           y="82.453629"
+           x="38.605675"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan4145"
+           y="110.63364"
+           x="38.605675"
+           sodipodi:role="line">&lt;body&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan4147"
+           y="138.81366"
+           x="38.605675"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan4149"
+           y="166.99368"
+           x="38.605675"
+           sodipodi:role="line">&lt;footer&gt;</tspan></text>
+    </g>
+    <rect
+       inkscape:export-ydpi="250"
+       inkscape:export-xdpi="250"
+       inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-ex-01-feat.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3383"
+       width="671.11108"
+       height="260"
+       x="2.3203124e-06"
+       y="1560.0001"
+       ry="1.8591877" />
+    <rect
+       ry="1.8591877"
+       y="1820.0001"
+       x="2.3203124e-06"
+       height="260"
+       width="671.11108"
+       id="rect3493"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-ex-02-fix.png"
+       inkscape:export-xdpi="250"
+       inkscape:export-ydpi="250" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="38.816662"
+       y="1874.3745"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="38.816662"
+         y="1874.3745"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">fix<tspan
+   style="fill:#1c00ff;fill-opacity:1"
+   id="tspan3781">(search)</tspan>: <tspan
+   style="fill:#009400;fill-opacity:1"
+   id="tspan3841">find products containing special chars</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="1897.8579"
+         id="tspan2989"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline" /><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="1921.3412"
+         id="tspan2991"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">escape specials chars before search API call</tspan><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="1944.8246"
+         id="tspan2993"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline" /><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="1968.3079"
+         id="tspan2995"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">special characters: \+-&amp;|!(){}[]^&quot;~*?:</tspan><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="1991.7913"
+         id="tspan2999"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">doc: http://lucene.apache.org/core/4_7_0/queryparser</tspan><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="2015.2747"
+         id="tspan3001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline" /><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="2038.7579"
+         id="tspan3003"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">Closes #789</tspan></text>
+    <g
+       id="g3396"
+       transform="translate(0,-117.5)">
+      <rect
+         ry="1.8591877"
+         y="377.50012"
+         x="3.3007814e-06"
+         height="260"
+         width="671.11108"
+         id="rect3095"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-01-type.png"
+         inkscape:export-xdpi="250"
+         inkscape:export-ydpi="250" />
+      <rect
+         ry="2.6550872"
+         y="413.42868"
+         x="36.722538"
+         height="25"
+         width="70.357147"
+         id="rect3097"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="38.605656"
+         y="431.77359"
+         id="text3099"
+         sodipodi:linespacing="150%"><tspan
+           sodipodi:role="line"
+           id="tspan3101"
+           x="38.605656"
+           y="431.77359"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"><tspan
+   id="tspan3103"
+   style="fill:#ffffff">&lt;type&gt;</tspan><tspan
+   style="line-height:150%;fill:#1c00ff;fill-opacity:1"
+   id="tspan3105">(&lt;scope&gt;)</tspan>: <tspan
+   style="line-height:150%;fill:#009400;fill-opacity:1"
+   id="tspan3107">&lt;subject&gt;</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="459.95361"
+           id="tspan3109"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;BLANK LINE&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="488.13364"
+           id="tspan3111"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;body&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="516.31366"
+           id="tspan3113"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;BLANK LINE&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="544.49365"
+           id="tspan3115"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;footer&gt;</tspan></text>
+      <g
+         id="g3197"
+         transform="translate(19.99998,260.00012)">
+        <path
+           sodipodi:nodetypes="scccssssssss"
+           inkscape:connector-curvature="0"
+           id="path3199"
+           d="m 622.4103,313.67512 -22.21547,0 -3.95938,22.32488 -18.64722,-22.32488 -217.55818,0 c -3.98923,0 -7.20077,-3.21155 -7.20077,-7.20078 l 0,-83.98934 c 0,-3.98923 3.21154,-7.20078 7.20077,-7.20078 l 262.38025,0 c 3.98923,0 7.20078,3.21155 7.20078,7.20078 l 0,83.98934 c 0,3.98923 -3.21155,7.20078 -7.20078,7.20078 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3201"
+           y="275.89868"
+           x="371.43533"
+           style="font-size:33.08197403px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+             y="275.89868"
+             x="371.43533"
+             id="tspan3203"
+             sodipodi:role="line">quoi ?</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3413"
+       transform="translate(0,-235)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3177"
+         width="671.11108"
+         height="260"
+         x="3.3007814e-06"
+         y="755.00012"
+         ry="1.8591877"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-02-scope.png"
+         inkscape:export-xdpi="250"
+         inkscape:export-ydpi="250" />
+      <rect
+         style="fill:#1c00ff;fill-opacity:1;stroke:none"
+         id="rect3179"
+         width="101.67188"
+         height="25"
+         x="105.91779"
+         y="790.92871"
+         ry="2.6550872" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text3181"
+         y="809.27356"
+         x="38.605656"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           y="809.27356"
+           x="38.605656"
+           id="tspan3183"
+           sodipodi:role="line">&lt;type&gt;<tspan
+   id="tspan3185"
+   style="line-height:150%;fill:#ffffff;fill-opacity:1">(&lt;scope&gt;)</tspan>: <tspan
+   id="tspan3187"
+   style="line-height:150%;fill:#009400;fill-opacity:1">&lt;subject&gt;</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3189"
+           y="837.45361"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3191"
+           y="865.63361"
+           x="38.605656"
+           sodipodi:role="line">&lt;body&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3193"
+           y="893.8136"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3195"
+           y="921.99365"
+           x="38.605656"
+           sodipodi:role="line">&lt;footer&gt;</tspan></text>
+      <g
+         id="g3205"
+         transform="translate(19.99998,260.00009)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1"
+           d="m 622.4103,691.17515 -22.21547,0 -3.95938,22.32488 -18.64722,-22.32488 -217.55818,0 c -3.98923,0 -7.20077,-3.21155 -7.20077,-7.20078 l 0,-83.98934 c 0,-3.98923 3.21154,-7.20078 7.20077,-7.20078 l 262.38025,0 c 3.98923,0 7.20078,3.21155 7.20078,7.20078 l 0,83.98934 c 0,3.98923 -3.21155,7.20078 -7.20078,7.20078 z"
+           id="path3207"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="scccssssssss" />
+        <text
+           xml:space="preserve"
+           style="font-size:33.08197403px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="371.43533"
+           y="653.39868"
+           id="text3209"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3211"
+             x="371.43533"
+             y="653.39868"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">où ?</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3429"
+       transform="translate(0,-352.5)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3117"
+         width="671.11108"
+         height="260"
+         x="3.3007814e-06"
+         y="1132.5001"
+         ry="1.8591877"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-03-subject.png"
+         inkscape:export-xdpi="250"
+         inkscape:export-ydpi="250" />
+      <rect
+         style="fill:#009400;fill-opacity:1;stroke:none"
+         id="rect3119"
+         width="105.20741"
+         height="25"
+         x="228.13641"
+         y="1168.4287"
+         ry="2.6550872" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text3121"
+         y="1186.7737"
+         x="38.605656"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           y="1186.7737"
+           x="38.605656"
+           id="tspan3123"
+           sodipodi:role="line">&lt;type&gt;<tspan
+   id="tspan3125"
+   style="line-height:150%;fill:#1c00ff;fill-opacity:1">(&lt;scope&gt;)</tspan>: <tspan
+   id="tspan3127"
+   style="line-height:150%;fill:#ffffff;fill-opacity:1">&lt;subject&gt;</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3129"
+           y="1214.9537"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3131"
+           y="1243.1338"
+           x="38.605656"
+           sodipodi:role="line">&lt;body&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3133"
+           y="1271.3137"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3135"
+           y="1299.4938"
+           x="38.605656"
+           sodipodi:role="line">&lt;footer&gt;</tspan></text>
+      <g
+         id="g3213"
+         transform="translate(19.99998,260.00002)">
+        <path
+           sodipodi:nodetypes="scccssssssss"
+           inkscape:connector-curvature="0"
+           id="path3215"
+           d="m 622.4103,1068.6752 -22.21547,0 -3.95938,22.3249 -18.64722,-22.3249 -217.55818,0 c -3.98923,0 -7.20077,-3.2116 -7.20077,-7.2008 l 0,-83.98935 c 0,-3.98923 3.21154,-7.20078 7.20077,-7.20078 l 262.38025,0 c 3.98923,0 7.20078,3.21155 7.20078,7.20078 l 0,83.98935 c 0,3.9892 -3.21155,7.2008 -7.20078,7.2008 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3217"
+           y="1030.8987"
+           x="371.43533"
+           style="font-size:33.08197403px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+             y="1030.8987"
+             x="371.43533"
+             id="tspan3219"
+             sodipodi:role="line">pourquoi ?</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3445"
+       transform="translate(0,-470)">
+      <rect
+         ry="1.8591877"
+         y="1510.0001"
+         x="3.3007814e-06"
+         height="260"
+         width="671.11108"
+         id="rect3137"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-03-body.png"
+         inkscape:export-xdpi="250"
+         inkscape:export-ydpi="250" />
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke:none"
+         id="rect3139"
+         width="72.88253"
+         height="25"
+         x="36.722538"
+         y="1602.1787"
+         ry="2.6550872" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="38.605656"
+         y="1564.2737"
+         id="text3141"
+         sodipodi:linespacing="150%"><tspan
+           sodipodi:role="line"
+           id="tspan3143"
+           x="38.605656"
+           y="1564.2737"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;type&gt;<tspan
+   style="line-height:150%;fill:#1c00ff;fill-opacity:1"
+   id="tspan3145">(&lt;scope&gt;)</tspan>: <tspan
+   style="line-height:150%;fill:#009400;fill-opacity:1"
+   id="tspan3147">&lt;subject&gt;</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="1592.4537"
+           id="tspan3149"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;BLANK LINE&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="1620.6338"
+           id="tspan3151"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#ffffff;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;body&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="1648.8137"
+           id="tspan3153"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;BLANK LINE&gt;</tspan><tspan
+           sodipodi:role="line"
+           x="38.605656"
+           y="1676.9938"
+           id="tspan3155"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">&lt;footer&gt;</tspan></text>
+      <g
+         id="g3221"
+         transform="translate(19.99998,260.00012)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1"
+           d="m 622.4103,1446.1751 -22.21547,0 -3.95938,22.3249 -18.64722,-22.3249 -217.55818,0 c -3.98923,0 -7.20077,-3.2115 -7.20077,-7.2007 l 0,-83.9894 c 0,-3.9892 3.21154,-7.2008 7.20077,-7.2008 l 262.38025,0 c 3.98923,0 7.20078,3.2116 7.20078,7.2008 l 0,83.9894 c 0,3.9892 -3.21155,7.2007 -7.20078,7.2007 z"
+           id="path3223"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="scccssssssss" />
+        <text
+           xml:space="preserve"
+           style="font-size:33.08197403px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="371.43533"
+           y="1408.3987"
+           id="text3225"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3227"
+             x="371.43533"
+             y="1408.3987"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">comment ?</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3461"
+       transform="translate(0,-587.5)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3157"
+         width="671.11108"
+         height="260"
+         x="3.3007814e-06"
+         y="1887.5001"
+         ry="1.8591877"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-01-footer.png"
+         inkscape:export-xdpi="250"
+         inkscape:export-ydpi="250" />
+      <rect
+         ry="2.6550872"
+         y="2035.9287"
+         x="36.722538"
+         height="25"
+         width="93.590652"
+         id="rect3159"
+         style="fill:#777777;fill-opacity:1;stroke:none" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text3161"
+         y="1941.7737"
+         x="38.605656"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           y="1941.7737"
+           x="38.605656"
+           id="tspan3163"
+           sodipodi:role="line">&lt;type&gt;<tspan
+   id="tspan3165"
+   style="line-height:150%;fill:#1c00ff;fill-opacity:1">(&lt;scope&gt;)</tspan>: <tspan
+   id="tspan3167"
+   style="line-height:150%;fill:#009400;fill-opacity:1">&lt;subject&gt;</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3169"
+           y="1969.9537"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3171"
+           y="1998.1338"
+           x="38.605656"
+           sodipodi:role="line">&lt;body&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3173"
+           y="2026.3137"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#ffffff;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3175"
+           y="2054.4937"
+           x="38.605656"
+           sodipodi:role="line">&lt;footer&gt;</tspan></text>
+      <g
+         id="g3229"
+         transform="translate(19.99998,260.00012)">
+        <path
+           sodipodi:nodetypes="scccssssssss"
+           inkscape:connector-curvature="0"
+           id="path3231"
+           d="m 622.4103,1823.6751 -22.21547,0 -3.95938,22.3249 -18.64722,-22.3249 -217.55818,0 c -3.98923,0 -7.20077,-3.2115 -7.20077,-7.2007 l 0,-83.9894 c 0,-3.9892 3.21154,-7.2008 7.20077,-7.2008 l 262.38025,0 c 3.98923,0 7.20078,3.2116 7.20078,7.2008 l 0,83.9894 c 0,3.9892 -3.21155,7.2007 -7.20078,7.2007 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3233"
+           y="1785.8987"
+           x="371.43533"
+           style="font-size:33.08197403px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+             y="1785.8987"
+             x="371.43533"
+             id="tspan3235"
+             sodipodi:role="line">références ?</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="38.816662"
+       y="1614.3745"
+       id="text3867"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="38.816662"
+         y="1614.3745"
+         id="tspan3889"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"><tspan
+           id="tspan3965"
+           style="fill:#000000;fill-opacity:1">feat</tspan><tspan
+           id="tspan3961"
+           style="fill:#1c00ff;fill-opacity:1">(login)</tspan><tspan
+           id="tspan3967"
+           style="fill:#000000;fill-opacity:1">:</tspan><tspan
+           id="tspan3963"
+           style="fill:#009400;fill-opacity:1"> reset password on demand</tspan></tspan><tspan
+         id="tspan3951"
+         sodipodi:role="line"
+         x="38.816662"
+         y="1637.8579"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline" /><tspan
+         id="tspan3953"
+         sodipodi:role="line"
+         x="38.816662"
+         y="1661.3412"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline Italic">send an email with unique reset url</tspan><tspan
+         id="tspan3955"
+         sodipodi:role="line"
+         x="38.816662"
+         y="1684.8246"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline Italic">display a form to define a new password</tspan><tspan
+         id="tspan3957"
+         sodipodi:role="line"
+         x="38.816662"
+         y="1708.3079"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline" /><tspan
+         id="tspan3959"
+         sodipodi:role="line"
+         x="38.816662"
+         y="1731.7913"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline">Closes #1234</tspan></text>
+    <g
+       transform="translate(792.85714,-117.5)"
+       id="g3589">
+      <rect
+         inkscape:export-ydpi="250"
+         inkscape:export-xdpi="250"
+         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-01-type-list.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3591"
+         width="671.11108"
+         height="260"
+         x="3.3007814e-06"
+         y="377.50012"
+         ry="1.8591877" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         id="rect3593"
+         width="70.357147"
+         height="25"
+         x="36.722538"
+         y="413.42868"
+         ry="2.6550872" />
+      <text
+         sodipodi:linespacing="150%"
+         id="text3595"
+         y="431.77359"
+         x="38.605656"
+         style="font-size:18.78668213px;font-style:normal;font-weight:normal;line-height:150%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           y="431.77359"
+           x="38.605656"
+           id="tspan3597"
+           sodipodi:role="line"><tspan
+   style="fill:#ffffff"
+   id="tspan3599">&lt;type&gt;</tspan><tspan
+   id="tspan3601"
+   style="line-height:150%;fill:#1c00ff;fill-opacity:1">(&lt;scope&gt;)</tspan>: <tspan
+   id="tspan3603"
+   style="line-height:150%;fill:#009400;fill-opacity:1">&lt;subject&gt;</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3605"
+           y="459.95361"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#333333;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3607"
+           y="488.13364"
+           x="38.605656"
+           sodipodi:role="line">&lt;body&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3609"
+           y="516.31366"
+           x="38.605656"
+           sodipodi:role="line">&lt;BLANK LINE&gt;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;fill:#777777;fill-opacity:1;font-family:Droid Sans Mono for Powerline;-inkscape-font-specification:Droid Sans Mono for Powerline"
+           id="tspan3611"
+           y="544.49365"
+           x="38.605656"
+           sodipodi:role="line">&lt;footer&gt;</tspan></text>
+      <g
+         id="g3708"
+         transform="matrix(1.4176906,0,0,1.4176906,-118.70834,-282.42461)">
+        <text
+           xml:space="preserve"
+           style="font-size:18.78000069px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="391.4353"
+           y="535.8988"
+           id="text3617"
+           sodipodi:linespacing="150%"><tspan
+             sodipodi:role="line"
+             id="tspan3619"
+             x="391.4353"
+             y="535.8988"
+             style="font-size:18.78000069px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">feat</tspan><tspan
+             id="tspan3624"
+             sodipodi:role="line"
+             x="391.4353"
+             y="564.06879"
+             style="font-size:18.78000069px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">fix</tspan><tspan
+             id="tspan3626"
+             sodipodi:role="line"
+             x="391.4353"
+             y="592.23883"
+             style="font-size:18.78000069px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">refactor</tspan><tspan
+             id="tspan3636"
+             sodipodi:role="line"
+             x="391.4353"
+             y="620.40881"
+             style="font-size:18.78000069px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">chore</tspan></text>
+        <text
+           sodipodi:linespacing="150%"
+           id="text3638"
+           y="535.8988"
+           x="484.85889"
+           style="font-size:18.78000069000000138px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#777777;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           xml:space="preserve"><tspan
+             style="font-size:18.78000069000000138px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans;fill:#777777;fill-opacity:1"
+             y="535.8988"
+             x="484.85889"
+             sodipodi:role="line"
+             id="tspan3650">test</tspan><tspan
+             style="font-size:18.78000069000000138px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans;fill:#777777;fill-opacity:1"
+             y="564.06879"
+             x="484.85889"
+             sodipodi:role="line"
+             id="tspan3652">docs</tspan><tspan
+             style="font-size:18.78000069000000138px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans;fill:#777777;fill-opacity:1"
+             y="592.23883"
+             x="484.85889"
+             sodipodi:role="line"
+             id="tspan3654">style</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
