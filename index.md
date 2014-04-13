@@ -90,9 +90,10 @@ mémoire, cerveau...
 
 ---
 
-## Absences
+<!-- .slide: data-background="img/holiday.jpg" data-background-size="cover" -->
 
-image de vacances
+<!-- .element: class="fullImageCaption" -->
+En cas d'absence
 
 ---
 
