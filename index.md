@@ -44,10 +44,10 @@ Git, un outil multi-fonction!
 <!-- .slide: data-background="url(img/katana-couteau-suisse.png)" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
-Git, un outil de précision multi-fonction!
+Git, une arme pour les NINJA!
 
 Note:
-Git va nous permettre de combattre un fléau trop répondu
+Git va nous permettre de combattre un fléau trop répandu:
 L'historique sale :-(
 
 ---
