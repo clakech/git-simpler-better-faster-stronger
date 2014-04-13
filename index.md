@@ -235,6 +235,16 @@ Identifiant de user story <br>
 
 <!-- .slide: data-background="#F5AF33" -->
 
+# Générer <br> un changelog
+
+---
+
+<!-- .slide: data-background="img/changelog.png" data-background-size="contain" -->
+
+---
+
+<!-- .slide: data-background="#F5AF33" -->
+
 # Améliorons <br> notre historique
 
 ---
@@ -472,19 +482,3 @@ Git merge vs rebase
 * Code review ? commit
 * Code ready ? rebase
 * Code merge ? merge !
-
----
-
-<!-- .slide: data-background="#F5AF33" -->
-
-#Changelog
-
----
-
-<!-- .slide: data-background="img/changelog.png" data-background-size="contain" -->
-
----
-
-<!-- .slide: data-background="#F5AF33" -->
-
-#DEMO
