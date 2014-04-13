@@ -110,27 +110,37 @@ body {
  * LISTS
  *********************************************/
 
-.reveal ol,
-.reveal ul {
-  margin-left: 0;
-}
-
 .reveal li {
   line-height: 1.5;
   font-size: 50px;
+}
+
+.reveal ul li {
   list-style: none;
 }
 
+.reveal .oneColList ol,
 .reveal .oneColList ul,
+.reveal .twoColList ol,
 .reveal .twoColList ul {
+  margin-left: 0;
   margin-top: 40px;
 }
 
+.reveal .oneColList ol {
+  padding: 10px 30px 10px 110px;
+}
+
+.reveal .oneColList ul {
+  padding: 10px 30px;
+}
+
+.reveal .oneColList ol,
 .reveal .oneColList ul {
   background: #FFF;
   border: 5px solid #F5AF33;
-  padding: 10px 30px;
 }
+.reveal .oneColList ol,
 
 .reveal .twoColList ul {
   width: 1000px;

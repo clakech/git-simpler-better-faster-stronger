@@ -472,10 +472,10 @@ Git merge vs rebase
 
 ##Git rebase ? Git commit ? Git merge ?
 
-* Code privé ? rebase
-* Code review ? commit
-* Code ready ? rebase
-* Code merge ? merge !
+1. Code privé ? rebase
+2. Code review ? commit
+3. Code ready ? rebase
+4. Code merge ? merge !
 
 ---
 
