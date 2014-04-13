@@ -468,12 +468,6 @@ Git merge vs rebase
 
 ---
 
-<!-- .slide: data-background="#F5AF33" -->
-
-#DEMO
-
----
-
 <!-- .slide: class="oneColList" -->
 
 ##Git rebase ? Git commit ? Git merge ?
@@ -482,3 +476,9 @@ Git merge vs rebase
 * Code review ? commit
 * Code ready ? rebase
 * Code merge ? merge !
+
+---
+
+<!-- .slide: data-background="#F5AF33" -->
+
+#DEMO
