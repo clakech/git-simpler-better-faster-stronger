@@ -73,8 +73,7 @@ body {
 
 .reveal .fullImageCaption {
   background: rgba(255, 255, 255, .9);
-  background: rgba(220, 220, 220, .9);
-  background: rgba(85, 224, 230, .6);
+  box-shadow: 0 0 15px #777;
   margin-left: -50%;
   font-size: 60px;
   font-weight: bold;
