@@ -84,9 +84,10 @@ L'historique sale :-(
 
 ---
 
-## Perte de mémoire
+<!-- .slide: data-background="img/men-in-black.jpg" data-background-size="cover" -->
 
-mémoire, cerveau...
+<!-- .element: class="fullImageCaption" -->
+Perte de mémoire
 
 ---
 
