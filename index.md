@@ -4,10 +4,6 @@
 
 *Passez au niveau supérieur<br>de la gestion de version*
 
-Note:
-Qui utilise git ? <br>
-Qui a trouvé git complexe au début ?
-
 ---
 
 <!-- .slide: data-background="#F5AF33" class="oneColList" -->
@@ -17,6 +13,10 @@ Qui a trouvé git complexe au début ?
 * Une vision
 * Une méthode
 * Des outils
+
+Note:
+Qui utilise git ? <br>
+Qui a trouvé git complexe au début ?
 
 ---
 
@@ -82,12 +82,18 @@ L'historique sale :-(
 
 ## Mais pourquoi faire ?
 
+Note:
+Dans quels cas de figure il est utile/indispensable d'avoir un historique propre ?
+
 ---
 
 <!-- .slide: data-background="img/men-in-black.jpg" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
 Perte de mémoire
+
+Note:
+Mais à quoi elle sert cette méthode déjà ? Pourquoi je l'ai ajouté avec cette visibilité ?
 
 ---
 
@@ -96,6 +102,9 @@ Perte de mémoire
 <!-- .element: class="fullImageCaption" -->
 En cas d'absence
 
+Note:
+Vacances, réunions, arrêt maladie, formations, devoxx... toutes ces raisons qui peuvent empêcher de contacter vos collègues ou qui peuvent empêcher vos collègues de vous contacter.
+
 ---
 
 <!-- .slide: data-background="img/newbie.jpg" data-background-size="cover" -->
@@ -103,12 +112,18 @@ En cas d'absence
 <!-- .element: class="fullImageCaption" -->
 Arrivée d'un nouveau
 
+Note:
+Quand on doit accueillir un petit nouveau, c'est encore plus utile pour lui de pouvoir comprendre l'histoire de votre produit.
+
 ---
 
 <!-- .slide: data-background="img/pull-request-with-detailed-commits.png" data-background-size="cover" -->
 
 <!-- .element: class="fullImageCaption" -->
 Revue de code
+
+Note:
+C'est pour toutes ces raisons que c'est important de donner du sens à notre historique de code!
 
 ---
 
@@ -282,6 +297,9 @@ Un Product Owner content
 * Insérer
 * Supprimer
 
+Note:
+On peut se tromper dans nos commits et notre code peut évoluer au fil du temps, il faut être capable de modeler nos commits comme on l'entend...
+
 ---
 
 <!-- .slide: data-background="#F5AF33" class="codeTitle" -->
@@ -297,6 +315,9 @@ Un Product Owner content
 <!-- .slide: class="codeTitle" -->
 
 # `git merge`
+
+Note:
+Il faut comprende les différences entre les stratégie merge et rebase
 
 ---
 
@@ -406,6 +427,10 @@ Un Product Owner content
 
 <!-- .element: class="fullImageCaption" -->
 Git merge vs rebase
+
+Note:
+On vous propose 2 options, elles font débat partout et souvent, et son sujet à troll.
+Une option où l'historique est trouble et chaotique et une autre où l'historique est clair et lisible!
 
 ---
 
