@@ -6,13 +6,7 @@
 
 ---
 
-<!-- .slide: data-background="#F5AF33" class="oneColList" -->
-
-##3 points pour améliorer la qualité
-
-* Une vision
-* Une méthode
-* Des outils
+<!-- .slide: data-background="img/3-points.png" data-background-size="cover" -->
 
 Note:
 Qui utilise git ? <br>
