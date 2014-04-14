@@ -443,13 +443,13 @@ Une option où l'historique est trouble et chaotique et une autre où l'historiq
 
 ---
 
-<!-- .slide: class="oneColList" -->
+<!-- .slide: class="oneColList smiley" -->
 
 ##Git merge vs rebase
 
-* ;-) historique simple
-* :-( perte du contexte de travail
-* :-( plus difficile à maitriser
+* ![happy smiley](img/happy.svg) historique simple
+* ![angry smiley](img/angry.svg) perte du contexte de travail
+* ![angry smiley](img/angry.svg) plus difficile à maitriser
 
 ---
 

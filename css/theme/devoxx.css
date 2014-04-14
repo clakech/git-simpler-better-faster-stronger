@@ -140,8 +140,8 @@ body {
   background: #FFF;
   border: 5px solid #F5AF33;
 }
-.reveal .oneColList ol,
 
+.reveal .oneColList ol,
 .reveal .twoColList ul {
   width: 1000px;
 }
@@ -186,3 +186,10 @@ body {
   color: #333;
 }
 
+.reveal .smiley img {
+  box-shadow: none;
+  height: 70px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
