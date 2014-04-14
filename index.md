@@ -378,10 +378,6 @@ Il faut comprende les différences entre les stratégie merge et rebase
 
 ---
 
-TODO image histo plein de merges
-
----
-
 <!-- .slide: class="codeTitle" -->
 
 # `git rebase`
