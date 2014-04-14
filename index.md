@@ -132,11 +132,7 @@ Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
 
 ## Conventions de commit
 
-<!-- .slide: class="oneColList" -->
-
-* AngularJS
-* Karma runner
-* Angular UI
+![git rebase target](img/logos.png)
 
 ---
 
@@ -246,6 +242,9 @@ Identifiant de user story <br>
 
 <!-- .element: class="fullImageCaption" -->
 Des développeurs contents
+
+Note:
+C'est que pour les dév ?
 
 ---
 
@@ -376,6 +375,10 @@ Il faut comprende les différences entre les stratégie merge et rebase
 ## Git merge TRES mal utilisé
 
 ![git rebase target](img/git-merge-very-bad.png)
+
+---
+
+TODO image histo plein de merges
 
 ---
 
