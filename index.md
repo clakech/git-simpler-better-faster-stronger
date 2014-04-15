@@ -370,14 +370,6 @@ Il faut comprende les différences entre les stratégie merge et rebase
 
 ---
 
-<!-- .slide: data-transition="none" -->
-
-## Git merge TRES mal utilisé
-
-![git rebase target](img/git-merge-very-bad.png)
-
----
-
 <!-- .slide: class="codeTitle" -->
 
 # `git rebase`
