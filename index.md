@@ -437,7 +437,7 @@ Une option où l'historique est trouble et chaotique et une autre où l'historiq
 
 <!-- .slide: class="oneColList smiley" -->
 
-##Git merge vs rebase
+##Git rebase FTW!
 
 * ![happy smiley](img/happy.svg) historique simple
 * ![angry smiley](img/angry.svg) perte du contexte de travail
