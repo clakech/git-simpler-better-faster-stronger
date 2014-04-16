@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#F5AF33" -->
+<!-- .slide: data-background="img/devoxx-background.png" data-background-size="cover" -->
 
 # Git++
 
@@ -526,6 +526,6 @@ Une option où l'historique est trouble et chaotique et une autre où l'historiq
 
 ---
 
-<!-- .slide: data-background="#F5AF33" -->
+<!-- .slide: data-background="img/devoxx-background.png" data-background-size="cover" -->
 
 #DEMO
