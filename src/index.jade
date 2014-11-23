@@ -1,0 +1,512 @@
+doctype html
+
+meta(charset='utf-8')
+meta(name='prezento-capable', content='yes')
+meta(name='prezento-vendor', content='dzslides')
+
+title git++, passez au niveau supérieur de la gestion de versions
+
+link(href='dzslides.css', rel='stylesheet')
+link(href='index.css', rel='stylesheet')
+link(href='http://fonts.googleapis.com/css?family=Signika|Patua+One', rel='stylesheet', type='text/css')
+link(href='highlight.github.css', rel='stylesheet')
+
+section.slide-splash
+    .mark git++
+    .line Passez au niveau supérieur<br>de la gestion de version
+
+section
+    .incremental.fit-title
+        .title 1. Une conviction
+        .title 2. Une méthode
+        .title 3. Des outils
+        .title Améliorer la qualité
+    div(role='note').
+        Qui utilise git ?
+        Qui a trouvé git complexe au début ?
+
+section
+    figure.fs-media.fs-media-contain
+        img(src="media/cockpit.jpg")
+        figcaption man git (>_<)
+
+section
+    figure.fs-media
+        img(src="media/marteau.jpg")
+        figcaption git != SVN
+
+section
+    figure.fs-media
+        img(src="media/couteau-suisse.jpg")
+        figcaption git, un outil multi-fonction!
+
+section
+    figure.fs-media
+        img(src="media/katana-couteau-suisse.png")
+        figcaption git, une arme pour les NINJAS!
+    div(role='note').
+        git va nous permettre de combattre un fléau trop répandu:
+        L'historique sale :-(
+
+section.slide-section
+    .title Un historique
+    .mark sale
+
+section
+    .title Un historique sale
+    figure.simple-media
+        img(src="media/historique-sale.svg")
+
+
+section.slide-section
+    .title Un historique
+    .mark propre
+    .line Mais pourquoi faire ?
+    div(role='note').
+        Dans quels cas de figure il est utile/indispensable d'avoir un historique propre ?
+
+section
+    figure.fs-media
+        img(src="media/men-in-black.jpg")
+        figcaption Perte de mémoire
+    div(role='note').
+        Mais à quoi elle sert cette méthode déjà ? Pourquoi je l'ai ajouté avec cette visibilité ?
+
+section
+    figure.fs-media
+        img(src="media/holiday.jpg")
+        figcaption En cas d'absence
+    div(role='note').
+        Vacances, réunions, arrêt maladie, formations, devoxx... toutes ces raisons qui peuvent empêcher de contacter vos collègues ou qui peuvent empêcher vos collègues de vous contacter.
+
+section
+    figure.fs-media
+        img(src="media/newbie.jpg")
+        figcaption Arrivée d'un nouveau
+    div(role='note').
+        Quand on doit accueillir un petit nouveau, c'est encore plus utile pour lui de pouvoir comprendre l'histoire de votre produit.
+
+section
+    figure.fs-media
+        img(src="media/pull-request-with-detailed-commits.png")
+        figcaption Revue de code
+    div(role='note').
+        C'est pour toutes ces raisons que c'est important de donner du sens à notre historique de code!
+
+section.slide-section
+    .title Donnons du sens à notre
+    .mark historique
+
+section
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/logos.svg")
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-00.png")
+    div(role='note').
+        Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-01-type.png")
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-01-type-list.png")
+    div(role='note').
+        feat     : fonctionnalité
+        fix      : correctif
+        refactor : changement technique
+        chore    : changement build/config
+        test     : test manquant
+        docs     : changement dans la documentation
+        style    : changement de formattage
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-02-scope.png")
+    div(role='note').
+        (optionnel)
+        Listez vos scopes
+        Faites les évoluer dans le temps
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-03-subject.png")
+    div(role='note').
+        Description des changements
+        Point de vue utilisateur (feat, fix)
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-04-body.png")
+    div(role='note').
+        (optionnel)
+        Détails sur le sujet
+        Détails d'implémentation
+
+section.no-transition
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-05-footer.png")
+    div(role='note').
+        (optionnel)
+        Identifiant de bug fix
+        Identifiant de user story
+
+section.no-transition
+    .title Exemple : une fonctionnalité
+    figure.simple-media
+        img(src="media/conventions-ex-01-feat.png")
+
+section.no-transition
+    .title Exemple : une correction
+    figure.simple-media
+        img(src="media/conventions-ex-02-fix.png")
+
+section
+    figure.fs-media
+        img(src="media/happy-dev.jpg")
+        figcaption Des développeurs contents
+    div(role='note').
+        C'est que pour les dév ?
+
+section.slide-section
+    .title Générer un
+    .mark changelog
+
+section
+    figure.fs-media
+        img(src="media/changelog.png")
+
+section
+    figure.fs-media
+        img(src="media/happy-users.jpg")
+        figcaption Des utilisateurs contents
+
+section
+    figure.fs-media
+        img(src="media/steve-jobs.jpg")
+        figcaption Un Product Owner content
+
+section.slide-section
+    .title Améliorons notre
+    .mark historique
+
+section
+    .title Savoir manipuler des commits :
+    .list
+        .list-2col-item Renommer
+        .list-2col-item Modifier
+        .list-2col-item Réordonner
+        .list-2col-item Fusionner
+        .list-2col-item Insérer
+        .list-2col-item Supprimer
+    div(role='note').
+        On peut se tromper dans nos commits et notre code peut évoluer au fil du temps, il faut être capable de modeler nos commits comme on l'entend...
+
+section.slide-subsection
+    .title.title-code git rebase -i
+
+section.slide-wat
+    .title WAT ??
+
+section.slide-subsection
+    .title git merge
+    div(role='note').
+        Il faut comprendre les différences entre les stratégie merge et rebase
+
+section.no-transition
+    .title sur la branche feature
+    figure.simple-media
+        img(src="media/git-04.png")
+
+section.no-transition
+    .title master évolue
+    figure.simple-media
+        img(src="media/git-05.png")
+
+section.no-transition
+    .title git merge
+    figure.simple-media
+        img(src="media/git-07.png")
+
+section.no-transition
+    .title sur la branche feature
+    figure.simple-media
+        img(src="media/git-merge-01.png")
+
+section.no-transition
+    .title master évolue
+    figure.simple-media
+        img(src="media/git-merge-02.png")
+
+section.no-transition
+    .title git merge
+    figure.simple-media
+        img(src="media/git-merge-04.png")
+
+section
+    figure.fs-media
+        img(src="media/git-merge-bad.jpg")
+
+section.slide-subsection
+    .title.title-code git rebase
+
+section.no-transition
+    .title master évolue
+    figure.simple-media
+        img(src="media/git-05.png")
+
+section.no-transition
+    .title git rebase
+    figure.simple-media
+        img(src="media/git-rebase-01.png")
+
+section.no-transition
+    .title après git rebase
+    figure.simple-media
+        img(src="media/git-rebase-02.png")
+
+section.no-transition
+    .title master évolue
+    figure.simple-media
+        img(src="media/git-rebase-03.png")
+
+section.no-transition
+    .title git rebase
+    figure.simple-media
+        img(src="media/git-rebase-04.png")
+
+section.no-transition
+    .title après git rebase
+    figure.simple-media
+        img(src="media/git-rebase-05.png")
+
+section
+    figure.fs-media
+        img(src="media/clean-vs-dirty-water.jpg")
+        figcaption git merge vs rebase
+    div(role='note').
+        On vous propose 2 options, elles font débat partout et souvent, et son sujet à troll.
+        Une option où l'historique est trouble et chaotique et une autre où l'historique est clair et lisible!
+
+section
+    .title git rebase FTW !
+    .incremental.incremental-full
+        .item-good historique simple
+        .item-bad perte du contexte de travail
+        .item-bad plus difficile à maitriser
+
+section.slide-danger
+    .mark git merge vs.<br> git rebase
+    .line attention aux rebases<br> de commits partagés
+
+section.slide-subsection
+    .title.title-code git rebase -i ?
+
+section.no-transition
+    .title branche feature
+    figure.simple-media
+        img(src="media/git-rebase-interactive-01.png")
+
+section.no-transition
+    .title je choisis le commit à éditer
+    figure.simple-media
+        img(src="media/git-rebase-interactive-02.png")
+
+section.no-transition
+    .title git rembobine
+    figure.simple-media
+        img(src="media/git-rebase-interactive-03.png")
+
+section.no-transition
+    .title j'édite mon commit
+    figure.simple-media
+        img(src="media/git-rebase-interactive-04.png")
+
+section.no-transition
+    .title git rejoue le reste de l'historique
+    figure.simple-media
+        img(src="media/git-rebase-interactive-05.png")
+
+section.no-transition
+    .title et replace ma branche
+    figure.simple-media
+        img(src="media/git-rebase-interactive-06.png")
+
+section.no-transition
+    .title ni vu, ni connu
+    figure.simple-media
+        img(src="media/git-rebase-interactive-07.png")
+
+section
+    .title git rebase, commit ou merge ?
+    .incremental
+        .tile-item 1. Code privé ? rebase
+        .tile-item 2. Code review ? commit
+        .tile-item 3. Code ready ? rebase
+        .tile-item 4. Code merge ? merge !
+    div(role="note").
+        slide rapide pour ch'ti JUG
+
+section.slide-subsection
+    .title git rebase
+    .title git commit
+    .title ou git merge ?
+    div(role="note").
+        slide détaillé pour codeurs en seine
+
+section
+    .title Je prends une US dans Jira
+    // image jira
+
+section
+    .title Je créé une branche feature à partir de la branche master
+    // schéma avec maste et feature sur le meme commit
+
+section
+    .title Je fais un commit de refacto
+    // schema précedent + un commit de refacto
+
+section
+    .title Je fais un commit avec mon US
+    // schema précedent + un commit de feat
+
+section
+    .title Je deuxième commit de refacto
+    // schema précedent + un commit de refacto
+
+section
+    .title Avant de soumettre une PR pour code review je fais du ménage
+    // schema avec les commits dans l'ordre ref/feat/ref
+    // master a évolué
+
+section
+    .title J'utilise un git rebase interactif pour réordonner et fusionner 2 commits de refacto
+    // schema avec les commits dans l'ordre ref/ref/feat
+    // schema avec les commits dans l'ordre ref/feat fusionné
+
+section
+    .title Je me rebase sur le dernier master
+    // schema avec les commits dans l'ordre ref/feat sur le dernier master
+
+section
+    .title J'ajoute un test qui manquait dans le commit de feature
+    // grbi je réécris le commit de feat
+
+section
+    .title Je soumet ma pull request
+    // image PR github avec git animé
+
+section
+    .title Quelqu'un revoit mon code, on me signale que le nom de ma méthode est pourri
+    // image commentaire sur ligne
+
+section
+    .title Je commit en plus pour montrer que j'ai pris en compte les changements
+    // schema avec 2 commits
+    // schema avec le commit de correction en plus
+
+section
+    .title Tout le monde est OK
+    // image github tout le monde est OK
+
+section
+    .title Je rebase mon code sur la dernière version de master
+    // je fusionner les corrections
+    // je me mets à jour sur le dernier master
+
+section
+    .title Un collègue merge ma branch sur master, la boucle est bouclée
+    // schema avec le commit de merge en plus
+
+section.slide-splash
+    .mark démo
+
+section.slide-splash
+    .mark git++
+    .line Ce qu'il faut retenir
+
+section.slide-recap
+    .title 1
+    .mark Une conviction
+    div(role="note").
+        Pour avoir :
+        Qualité dans le code
+        Sérénité dans l'équipe
+        Valeur pour l'utilisateur
+
+section
+    .title Un historique propre
+    figure.simple-media
+        img(src="media/git-clean-history.png")
+    div(role="note").
+        Un historique propre c'est important
+
+section.slide-recap
+    .title 2
+    .mark Une méthode
+    div(role="note").
+        Pour avoir :
+        Qualité dans le code
+        Sérénité dans l'équipe
+        Valeur pour l'utilisateur
+
+section
+    .title Conventions de commit
+    figure.simple-media
+        img(src="media/conventions-00.png")
+
+section
+    figure.fs-media
+        img(src="media/clean-vs-dirty-water.jpg")
+        figcaption git merge vs rebase
+
+section.slide-recap
+    .title 3
+    .mark Des outils
+
+section
+    .title.title-code git rebase -i
+    .list
+        .list-2col-item Renommer
+        .list-2col-item Modifier
+        .list-2col-item Réordonner
+        .list-2col-item Fusionner
+        .list-2col-item Insérer
+        .list-2col-item Supprimer
+
+section
+    .title npm i grunt-conventional-changelog<br>grunt changelog
+    figure.simple-media
+        img(src="media/changelog.png")
+
+section
+    figure.fs-media
+        img(src="media/happy-dev.jpg")
+        figcaption Merci !!
+
+section.slide-profiles
+    .profile
+        img.profile-picture(src="media/cyril.png")
+        .profile-name Cyril<br>LAKECH
+        .profile-twitter @cyril_lakech<br>@chtijug
+        img.profile-company-logo(src="media/groupe-adeo.png")
+    .profile
+        img.profile-picture(src="media/hubert.png")
+        .profile-name Hubert<br>SABLONNIÈRE
+        .profile-twitter @hsablonniere
+        img.profile-company-logo(src="media/ineat-conseil.png")
+
+script(src='dzslides.js')
+script(src='highlight.pack.js')
+script hljs.initHighlightingOnLoad();
