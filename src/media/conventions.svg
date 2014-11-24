@@ -25,15 +25,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.48179365"
-     inkscape:cx="2256.9244"
-     inkscape:cy="812.9043"
+     inkscape:cx="1300.3324"
+     inkscape:cy="2760.1941"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1176"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -174,20 +174,10 @@
            x="66.891579"
            sodipodi:role="line">special characters: \+-&amp;|!(){}[]^&quot;~*?:</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
-           id="tspan2999"
+           id="tspan3003"
            y="-152.91122"
            x="66.891579"
-           sodipodi:role="line">doc: http://lucene.apache.org/core/4_7_0/queryparser</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
-           id="tspan3001"
-           y="-102.52308"
-           x="66.891579"
-           sodipodi:role="line" /><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#666666;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
-           id="tspan3003"
-           y="-52.134945"
-           x="66.891579"
-           sodipodi:role="line">Closes #789</tspan></text>
+           sodipodi:role="line">doc: http://lucene.apache.org/core/4_7_0/queryparser</tspan></text>
     </g>
     <g
        id="g3609"
@@ -623,7 +613,7 @@
          width="1440"
          id="rect3383"
          style="fill:#ffffff;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/hsablonniere/dev/git-simpler-better-faster-stronger/img/conventions-ex-01-feat.png"
+         inkscape:export-filename="/home/hsablonniere/dev/git-dzslides/src/media/conventions-ex-01-feat.png"
          inkscape:export-xdpi="250"
          inkscape:export-ydpi="250" />
       <text
@@ -640,8 +630,6 @@
            sodipodi:role="line"><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#750000;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
              id="tspan3965">feat</tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#007fce;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
-             id="tspan3961">(login)</tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono"
              id="tspan3967">:</tspan><tspan
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#7ab45d;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -693,27 +681,27 @@
          sodipodi:linespacing="150%"
          id="text3617"
          y="-307.72626"
-         x="2542.1008"
+         x="2520.1008"
          style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          xml:space="preserve"><tspan
            style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
            y="-307.72626"
-           x="2542.1008"
+           x="2520.1008"
            id="tspan3619"
            sodipodi:role="line">feat</tspan><tspan
            style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
            y="-222.035"
-           x="2542.1008"
+           x="2520.1008"
            sodipodi:role="line"
            id="tspan3624">fix</tspan><tspan
            style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
            y="-136.34375"
-           x="2542.1008"
+           x="2520.1008"
            sodipodi:role="line"
            id="tspan3626">refactor</tspan><tspan
            style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
            y="-50.652496"
-           x="2542.1008"
+           x="2520.1008"
            sodipodi:role="line"
            id="tspan3636">chore</tspan></text>
       <text
@@ -727,17 +715,17 @@
            sodipodi:role="line"
            x="2866.2891"
            y="-307.72626"
-           style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono">test</tspan><tspan
+           style="font-size:57.12750244000000066px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">test</tspan><tspan
            id="tspan3652"
            sodipodi:role="line"
            x="2866.2891"
            y="-222.035"
-           style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono">docs</tspan><tspan
+           style="font-size:57.12750244000000066px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">docs</tspan><tspan
            id="tspan3654"
            sodipodi:role="line"
            x="2866.2891"
            y="-136.34375"
-           style="font-size:57.12750244px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono">style</tspan></text>
+           style="font-size:57.12750244000000066px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:150%;writing-mode:lr-tb;text-anchor:start;fill:#212121;fill-opacity:1;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold">style</tspan></text>
       <rect
          ry="5.6970105"
          y="-444.80505"

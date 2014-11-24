@@ -14,6 +14,7 @@ link(href='highlight.github.css', rel='stylesheet')
 section.slide-splash
     .mark git++
     .line Passez au niveau supérieur<br>de la gestion de version
+    div(role='note').
 
 section
     .incremental.fit-title
@@ -22,6 +23,10 @@ section
         .title 3. Des outils
         .title Améliorer la qualité
     div(role='note').
+        1. Une conviction
+        2. Une méthode
+        3. Des outils
+        => Améliorer la qualité
         Qui utilise git ?
         Qui a trouvé git complexe au début ?
 
@@ -56,7 +61,6 @@ section
     .title Un historique sale
     figure.simple-media
         img(src="media/historique-sale.svg")
-
 
 section.slide-section
     .title Un historique
@@ -185,7 +189,7 @@ section.slide-section
 
 section
     figure.fs-media
-        img(src="media/changelog.png")
+        img(src="media/fs-changelog.png")
 
 section
     figure.fs-media
@@ -225,12 +229,12 @@ section.slide-subsection
         Il faut comprendre les différences entre les stratégie merge et rebase
 
 section.no-transition
-    .title sur la branche feature
+    .title Je suis sur la branche feature...
     figure.simple-media
         img(src="media/git-04.png")
 
 section.no-transition
-    .title master évolue
+    .title ...et master a évolué.
     figure.simple-media
         img(src="media/git-05.png")
 
@@ -240,12 +244,12 @@ section.no-transition
         img(src="media/git-07.png")
 
 section.no-transition
-    .title sur la branche feature
+    .title Je continue sur ma branche feature...
     figure.simple-media
         img(src="media/git-merge-01.png")
 
 section.no-transition
-    .title master évolue
+    .title ...et master a évolué.
     figure.simple-media
         img(src="media/git-merge-02.png")
 
@@ -255,46 +259,47 @@ section.no-transition
         img(src="media/git-merge-04.png")
 
 section
-    figure.fs-media
+    .title git merge mal utilisé
+    figure.simple-media
         img(src="media/git-merge-bad.jpg")
 
 section.slide-subsection
     .title.title-code git rebase
 
 section.no-transition
-    .title master évolue
+    .title Master a évolué.
     figure.simple-media
         img(src="media/git-05.png")
 
 section.no-transition
-    .title git rebase
+    .title git rebase (pendant)
     figure.simple-media
         img(src="media/git-rebase-01.png")
 
 section.no-transition
-    .title après git rebase
+    .title git rebase (après)
     figure.simple-media
         img(src="media/git-rebase-02.png")
 
 section.no-transition
-    .title master évolue
+    .title Master a évolué.
     figure.simple-media
         img(src="media/git-rebase-03.png")
 
 section.no-transition
-    .title git rebase
+    .title git rebase (pendant)
     figure.simple-media
         img(src="media/git-rebase-04.png")
 
 section.no-transition
-    .title après git rebase
+    .title git rebase (après)
     figure.simple-media
         img(src="media/git-rebase-05.png")
 
 section
     figure.fs-media
         img(src="media/clean-vs-dirty-water.jpg")
-        figcaption git merge vs rebase
+        figcaption git merge vs. git rebase
     div(role='note').
         On vous propose 2 options, elles font débat partout et souvent, et son sujet à troll.
         Une option où l'historique est trouble et chaotique et une autre où l'historique est clair et lisible!
@@ -305,6 +310,10 @@ section
         .item-good historique simple
         .item-bad perte du contexte de travail
         .item-bad plus difficile à maitriser
+    div(role='note').
+        historique simple
+        perte du contexte de travail
+        plus difficile à maitriser
 
 section.slide-danger
     .mark git merge vs.<br> git rebase
@@ -314,120 +323,171 @@ section.slide-subsection
     .title.title-code git rebase -i ?
 
 section.no-transition
-    .title branche feature
+    .title Je suis sur la branche feature...
     figure.simple-media
         img(src="media/git-rebase-interactive-01.png")
 
 section.no-transition
-    .title je choisis le commit à éditer
+    .title Je choisis le commit à éditer.
     figure.simple-media
         img(src="media/git-rebase-interactive-02.png")
 
 section.no-transition
-    .title git rembobine
+    .title git rembobine dessus.
     figure.simple-media
         img(src="media/git-rebase-interactive-03.png")
 
 section.no-transition
-    .title j'édite mon commit
+    .title J'édite mon code.
     figure.simple-media
         img(src="media/git-rebase-interactive-04.png")
 
 section.no-transition
-    .title git rejoue le reste de l'historique
+    .title git rejoue le reste de l'historique...
     figure.simple-media
         img(src="media/git-rebase-interactive-05.png")
 
 section.no-transition
-    .title et replace ma branche
+    .title ...et replace ma branche.
     figure.simple-media
         img(src="media/git-rebase-interactive-06.png")
 
 section.no-transition
-    .title ni vu, ni connu
+    .title Et voilà : "ni vu, ni connu".
     figure.simple-media
         img(src="media/git-rebase-interactive-07.png")
 
-section
-    .title git rebase, commit ou merge ?
-    .incremental
-        .tile-item 1. Code privé ? rebase
-        .tile-item 2. Code review ? commit
-        .tile-item 3. Code ready ? rebase
-        .tile-item 4. Code merge ? merge !
-    div(role="note").
-        slide rapide pour ch'ti JUG
-
 section.slide-subsection
-    .title git rebase
-    .title git commit
+    .title git rebase ?
+    .title git commit ?
     .title ou git merge ?
     div(role="note").
         slide détaillé pour codeurs en seine
 
 section
-    .title Je prends une US dans Jira
-    // image jira
+    .title Je prends une US dans le backlog.
+    figure.simple-media
+        img(src="media/jira.png")
 
 section
-    .title Je créé une branche feature à partir de la branche master
-    // schéma avec maste et feature sur le meme commit
+    .title Je créé une branche depuis master.
+    figure.simple-media
+        img(src="media/collab-01.png")
 
-section
-    .title Je fais un commit de refacto
-    // schema précedent + un commit de refacto
+section.no-transition
+    .title Je refactor une méthode.
+    figure.simple-media
+        img(src="media/collab-02.png")
 
-section
-    .title Je fais un commit avec mon US
-    // schema précedent + un commit de feat
+section.no-transition
+    .title J'implémente la fonctionnalité.
+    figure.simple-media
+        img(src="media/collab-03.png")
 
-section
-    .title Je deuxième commit de refacto
-    // schema précedent + un commit de refacto
+section.no-transition
+    .title J'ai une autre idée pour le refactor.
+    figure.simple-media
+        img(src="media/collab-04.png")
 
-section
-    .title Avant de soumettre une PR pour code review je fais du ménage
-    // schema avec les commits dans l'ordre ref/feat/ref
+section.no-transition
+    .title Je fusionne les étapes de conception...
+    figure.simple-media
+        img(src="media/collab-05.png")
     // master a évolué
 
-section
-    .title J'utilise un git rebase interactif pour réordonner et fusionner 2 commits de refacto
-    // schema avec les commits dans l'ordre ref/ref/feat
-    // schema avec les commits dans l'ordre ref/feat fusionné
+section.no-transition
+    .title ...avec un git rebase interactive.
+    figure.simple-media
+        img(src="media/collab-06.png")
+
+section.no-transition
+    .title Pendant ce temps là, master évolue.
+    figure.simple-media
+        img(src="media/collab-07.png")
+
+section.no-transition
+    .title Je me rebase sur la dernière version.
+    figure.simple-media
+        img(src="media/collab-08.png")
 
 section
-    .title Je me rebase sur le dernier master
-    // schema avec les commits dans l'ordre ref/feat sur le dernier master
+    .title Je soumets ma pull request.
+    figure.simple-media
+        img(src="media/new-pull-request.png")
 
 section
-    .title J'ajoute un test qui manquait dans le commit de feature
-    // grbi je réécris le commit de feat
+    .title J'attire l'attention de l'équipe.
+    figure.simple-media
+        img(src="media/ukraine-france.gif")
 
 section
-    .title Je soumet ma pull request
-    // image PR github avec git animé
+    .title L'équipe fait <br> une revue de code.
 
 section
-    .title Quelqu'un revoit mon code, on me signale que le nom de ma méthode est pourri
-    // image commentaire sur ligne
+    .title Remarque : il manque un cas de test.
+    figure.simple-media
+        img(src="media/goal-missed.gif")
 
 section
-    .title Je commit en plus pour montrer que j'ai pris en compte les changements
-    // schema avec 2 commits
-    // schema avec le commit de correction en plus
+    .title Si les tests sont verts, <br> l'équipe rajoute des gifs.
+    figure.simple-media
+        img(src="media/super-green.gif")
 
 section
-    .title Tout le monde est OK
-    // image github tout le monde est OK
+    .title Automatisation du workflow business process CMMI v12 !
+    figure.simple-media
+        img(src="media/github-labels.png")
+
+section.no-transition
+    .title Je prends en compte la remarque.
+    figure.simple-media
+        img(src="media/collab-09.png")
 
 section
-    .title Je rebase mon code sur la dernière version de master
-    // je fusionner les corrections
-    // je me mets à jour sur le dernier master
+    .title L'équipe valide mes changements.
+    figure.simple-media
+        img(src="media/daccord.png")
+
+section.no-transition
+    .title Je fusionne les étapes de la revue...
+    figure.simple-media
+        img(src="media/collab-10.png")
+
+section.no-transition
+    .title ...avec un git rebase interactive.
+    figure.simple-media
+        img(src="media/collab-11.png")
 
 section
-    .title Un collègue merge ma branch sur master, la boucle est bouclée
-    // schema avec le commit de merge en plus
+    .title L'équipe merge la branche.
+    figure.simple-media
+        img(src="media/rocket-launcher.gif")
+
+section.no-transition
+    .title La fonctionnalité est dans le produit.
+    figure.simple-media
+        img(src="media/collab-12.png")
+
+section
+    .title git rebase, git commit ou git merge ?
+    ol.incremental.incremental-full
+        li.item
+            span.item-part Code privé
+            span.item-important ➜ rebase
+        li.item
+            span.item-part Code review
+            span.item-important ➜ commit
+        li.item
+            span.item-part Code ready
+            span.item-important ➜ rebase
+        li.item
+            span.item-part Code merge
+            span.item-important ➜ merge
+    div(role="note").
+        Code privé ➜ rebase et rebase -i
+        Code review ➜ commit
+        Code ready ➜ rebase
+        Code merge ➜ merge
 
 section.slide-splash
     .mark démo
@@ -439,27 +499,20 @@ section.slide-splash
 section.slide-recap
     .title 1
     .mark Une conviction
-    div(role="note").
-        Pour avoir :
-        Qualité dans le code
-        Sérénité dans l'équipe
-        Valeur pour l'utilisateur
 
 section
     .title Un historique propre
     figure.simple-media
         img(src="media/git-clean-history.png")
     div(role="note").
-        Un historique propre c'est important
+        Un historique propre c'est important, pour avoir :
+        Qualité dans le code
+        Sérénité dans l'équipe
+        Valeur pour l'utilisateur
 
 section.slide-recap
     .title 2
     .mark Une méthode
-    div(role="note").
-        Pour avoir :
-        Qualité dans le code
-        Sérénité dans l'équipe
-        Valeur pour l'utilisateur
 
 section
     .title Conventions de commit
@@ -469,7 +522,7 @@ section
 section
     figure.fs-media
         img(src="media/clean-vs-dirty-water.jpg")
-        figcaption git merge vs rebase
+        figcaption git merge vs. git rebase
 
 section.slide-recap
     .title 3
@@ -497,7 +550,7 @@ section
 
 section.slide-profiles
     .profile
-        img.profile-picture(src="media/cyril.png")
+        img.profile-picture(src="media/cyril.jpg")
         .profile-name Cyril<br>LAKECH
         .profile-twitter @cyril_lakech<br>@chtijug
         img.profile-company-logo(src="media/groupe-adeo.png")

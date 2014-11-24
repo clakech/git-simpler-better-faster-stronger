@@ -307,6 +307,7 @@ figcaption {
 }
 
 .profile-picture {
+  border-radius: 50%;
   height: 180px;
 }
 
@@ -333,6 +334,15 @@ figcaption {
 .profile-company-logo {
   height: 110px;
   margin-top: 20px;
+}
+
+.item-part {
+  display: inline-block;
+  width: 320px;
+}
+
+.item-important {
+  color: $green;
 }
 
 [data-state="next"].no-transition,
