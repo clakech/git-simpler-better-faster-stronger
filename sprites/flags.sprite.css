@@ -1,0 +1,12 @@
+
+.no-svg  {
+	display: inline-block;
+	background-image: url("./flags.sprite.png");
+	background-size: 0px 0px;
+}
+
+ {
+	display: inline-block;
+	background-image: url("./flags.sprite.svg");
+	background-repeat: no-repeat;
+}

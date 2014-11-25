@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="prezento-capable" content="yes">
+<meta name="prezento-vendor" content="dzslides">
+<title>git++, passez au niveau supérieur de la gestion de versions</title>
+<link href="dzslides.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Signika|Patua+One" rel="stylesheet" type="text/css">
+<link href="highlight.github.css" rel="stylesheet">
+<section class="slide-splash">
+  <div class="mark">git++</div>
+  <div class="line">Passez au niveau supérieur<br>de la gestion de version</div>
+  <div role="note"></div>
+</section>
+<section>
+  <div class="incremental fit-title">
+    <div class="title">1. Une conviction</div>
+    <div class="title">2. Une méthode</div>
+    <div class="title">3. Des outils</div>
+    <div class="title">Améliorer la qualité</div>
+  </div>
+  <div role="note">
+    1. Une conviction
+    2. Une méthode
+    3. Des outils
+    => Améliorer la qualité
+    Qui utilise git ?
+    Qui a trouvé git complexe au début ?
+    
+  </div>
+</section>
+<section>
+  <figure class="fs-media fs-media-contain"><img src="media/cockpit.jpg">
+    <figcaption>man git (>_<)</figcaption>
+  </figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/marteau.jpg">
+    <figcaption>git != SVN</figcaption>
+  </figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/couteau-suisse.jpg">
+    <figcaption>git, un outil multi-fonction!</figcaption>
+  </figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/katana-couteau-suisse.png">
+    <figcaption>git, une arme pour les NINJAS!</figcaption>
+  </figure>
+  <div role="note">
+    git va nous permettre de combattre un fléau trop répandu:
+    L'historique sale :-(
+    
+  </div>
+</section>
+<section class="slide-section">
+  <div class="title">Un historique</div>
+  <div class="mark">sale</div>
+</section>
+<section>
+  <div class="title">Un historique sale</div>
+  <figure class="simple-media"><img src="media/historique-sale.svg"></figure>
+</section>
+<section class="slide-section">
+  <div class="title">Un historique</div>
+  <div class="mark">propre</div>
+  <div class="line">Mais pourquoi faire ?</div>
+  <div role="note">
+    Dans quels cas de figure il est utile/indispensable d'avoir un historique propre ?
+    
+  </div>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/men-in-black.jpg">
+    <figcaption>Perte de mémoire</figcaption>
+  </figure>
+  <div role="note">
+    Mais à quoi elle sert cette méthode déjà ? Pourquoi je l'ai ajouté avec cette visibilité ?
+    
+  </div>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/holiday.jpg">
+    <figcaption>En cas d'absence</figcaption>
+  </figure>
+  <div role="note">
+    Vacances, réunions, arrêt maladie, formations, devoxx... toutes ces raisons qui peuvent empêcher de contacter vos collègues ou qui peuvent empêcher vos collègues de vous contacter.
+    
+  </div>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/newbie.jpg">
+    <figcaption>Arrivée d'un nouveau</figcaption>
+  </figure>
+  <div role="note">
+    Quand on doit accueillir un petit nouveau, c'est encore plus utile pour lui de pouvoir comprendre l'histoire de votre produit.
+    
+  </div>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/pull-request-with-detailed-commits.png">
+    <figcaption>Revue de code</figcaption>
+  </figure>
+  <div role="note">
+    C'est pour toutes ces raisons que c'est important de donner du sens à notre historique de code!
+    
+  </div>
+</section>
+<section class="slide-section">
+  <div class="title">Donnons du sens à notre</div>
+  <div class="mark">historique</div>
+</section>
+<section>
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/logos.svg"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-00.png"></figure>
+  <div role="note">
+    Quoi ? Où ? (Pour)quoi ? Comment ? Référence ?
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-01-type.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-01-type-list.png"></figure>
+  <div role="note">
+    feat     : fonctionnalité
+    fix      : correctif
+    refactor : changement technique
+    chore    : changement build/config
+    test     : test manquant
+    docs     : changement dans la documentation
+    style    : changement de formattage
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-02-scope.png"></figure>
+  <div role="note">
+    (optionnel)
+    Listez vos scopes
+    Faites les évoluer dans le temps
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-03-subject.png"></figure>
+  <div role="note">
+    Description des changements
+    Point de vue utilisateur (feat, fix)
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-04-body.png"></figure>
+  <div role="note">
+    (optionnel)
+    Détails sur le sujet
+    Détails d'implémentation
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-05-footer.png"></figure>
+  <div role="note">
+    (optionnel)
+    Identifiant de bug fix
+    Identifiant de user story
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Exemple : une fonctionnalité</div>
+  <figure class="simple-media"><img src="media/conventions-ex-01-feat.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Exemple : une correction</div>
+  <figure class="simple-media"><img src="media/conventions-ex-02-fix.png"></figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/happy-dev.jpg">
+    <figcaption>Des développeurs contents</figcaption>
+  </figure>
+  <div role="note">
+    C'est que pour les dév ?
+    
+  </div>
+</section>
+<section class="slide-section">
+  <div class="title">Générer un</div>
+  <div class="mark">changelog</div>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/fs-changelog.png"></figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/happy-users.jpg">
+    <figcaption>Des utilisateurs contents</figcaption>
+  </figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/steve-jobs.jpg">
+    <figcaption>Un Product Owner content</figcaption>
+  </figure>
+</section>
+<section class="slide-section">
+  <div class="title">Améliorons notre</div>
+  <div class="mark">historique</div>
+</section>
+<section>
+  <div class="title">Savoir manipuler des commits :</div>
+  <div class="list">
+    <div class="list-2col-item">Renommer</div>
+    <div class="list-2col-item">Modifier</div>
+    <div class="list-2col-item">Réordonner</div>
+    <div class="list-2col-item">Fusionner</div>
+    <div class="list-2col-item">Insérer</div>
+    <div class="list-2col-item">Supprimer</div>
+  </div>
+  <div role="note">
+    On peut se tromper dans nos commits et notre code peut évoluer au fil du temps, il faut être capable de modeler nos commits comme on l'entend...
+    
+  </div>
+</section>
+<section class="slide-subsection">
+  <div class="title title-code">git rebase -i</div>
+</section>
+<section class="slide-wat">
+  <div class="title">WAT ??</div>
+</section>
+<section class="slide-subsection">
+  <div class="title">git merge</div>
+  <div role="note">
+    Il faut comprendre les différences entre les stratégie merge et rebase
+    
+  </div>
+</section>
+<section class="no-transition">
+  <div class="title">Je suis sur la branche feature...</div>
+  <figure class="simple-media"><img src="media/git-04.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">...et master a évolué.</div>
+  <figure class="simple-media"><img src="media/git-05.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git merge</div>
+  <figure class="simple-media"><img src="media/git-07.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je continue sur ma branche feature...</div>
+  <figure class="simple-media"><img src="media/git-merge-01.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">...et master a évolué.</div>
+  <figure class="simple-media"><img src="media/git-merge-02.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git merge</div>
+  <figure class="simple-media"><img src="media/git-merge-04.png"></figure>
+</section>
+<section>
+  <div class="title">git merge mal utilisé</div>
+  <figure class="simple-media"><img src="media/git-merge-bad.jpg"></figure>
+</section>
+<section class="slide-subsection">
+  <div class="title title-code">git rebase</div>
+</section>
+<section class="no-transition">
+  <div class="title">Master a évolué.</div>
+  <figure class="simple-media"><img src="media/git-05.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git rebase (pendant)</div>
+  <figure class="simple-media"><img src="media/git-rebase-01.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git rebase (après)</div>
+  <figure class="simple-media"><img src="media/git-rebase-02.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Master a évolué.</div>
+  <figure class="simple-media"><img src="media/git-rebase-03.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git rebase (pendant)</div>
+  <figure class="simple-media"><img src="media/git-rebase-04.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git rebase (après)</div>
+  <figure class="simple-media"><img src="media/git-rebase-05.png"></figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/clean-vs-dirty-water.jpg">
+    <figcaption>git merge vs. git rebase</figcaption>
+  </figure>
+  <div role="note">
+    On vous propose 2 options, elles font débat partout et souvent, et son sujet à troll.
+    Une option où l'historique est trouble et chaotique et une autre où l'historique est clair et lisible!
+    
+  </div>
+</section>
+<section>
+  <div class="title">git rebase FTW !</div>
+  <div class="incremental incremental-full">
+    <div class="item-good">historique simple</div>
+    <div class="item-bad">perte du contexte de travail</div>
+    <div class="item-bad">plus difficile à maitriser</div>
+  </div>
+  <div role="note">
+    historique simple
+    perte du contexte de travail
+    plus difficile à maitriser
+    
+  </div>
+</section>
+<section class="slide-danger">
+  <div class="mark">git merge vs.<br> git rebase</div>
+  <div class="line">attention aux rebases<br> de commits partagés</div>
+</section>
+<section class="slide-subsection">
+  <div class="title title-code">git rebase -i ?</div>
+</section>
+<section class="no-transition">
+  <div class="title">Je suis sur la branche feature...</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-01.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je choisis le commit à éditer.</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-02.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git rembobine dessus.</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-03.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">J'édite mon code.</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-04.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">git rejoue le reste de l'historique...</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-05.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">...et replace ma branche.</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-06.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Et voilà : "ni vu, ni connu".</div>
+  <figure class="simple-media"><img src="media/git-rebase-interactive-07.png"></figure>
+</section>
+<!--section.slide-subsection-->
+<!--    .title git rebase ?-->
+<!--    .title git commit ?-->
+<!--    .title ou git merge ?-->
+<!--section-->
+<!--    .title Je prends une US dans le backlog.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/jira.png")-->
+<!---->
+<!--section-->
+<!--    .title Je créé une branche depuis master.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-01.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title Je refactor une méthode.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-02.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title J'implémente la fonctionnalité.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-03.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title J'ai une autre idée pour le refactor.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-04.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title Je fusionne les étapes de conception...-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-05.png")-->
+<!--    // master a évolué-->
+<!---->
+<!--section.no-transition-->
+<!--    .title ...avec un git rebase interactive.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-06.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title Pendant ce temps là, master évolue.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-07.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title Je me rebase sur la dernière version.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-08.png")-->
+<!---->
+<!--section-->
+<!--    .title Je soumets ma pull request.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/new-pull-request.png")-->
+<!---->
+<!--section-->
+<!--    .title J'attire l'attention de l'équipe.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/ukraine-france.gif")-->
+<!---->
+<!--section-->
+<!--    .title L'équipe fait <br> une revue de code.-->
+<!---->
+<!--section-->
+<!--    .title Remarque : il manque un cas de test.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/goal-missed.gif")-->
+<!---->
+<!--section-->
+<!--    .title Si les tests sont verts, <br> l'équipe rajoute des gifs.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/super-green.gif")-->
+<!---->
+<!--section-->
+<!--    .title Automatisation du workflow business process CMMI v12 !-->
+<!--    figure.simple-media-->
+<!--        img(src="media/github-labels.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title Je prends en compte la remarque.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-09.png")-->
+<!---->
+<!--section-->
+<!--    .title L'équipe valide mes changements.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/daccord.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title Je fusionne les étapes de la revue...-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-10.png")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title ...avec un git rebase interactive.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-11.png")-->
+<!---->
+<!--section-->
+<!--    .title L'équipe merge la branche.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/rocket-launcher.gif")-->
+<!---->
+<!--section.no-transition-->
+<!--    .title La fonctionnalité est dans le produit.-->
+<!--    figure.simple-media-->
+<!--        img(src="media/collab-12.png")-->
+<section>
+  <div class="title">git rebase, git commit ou git merge ?</div>
+  <ol class="incremental incremental-full">
+    <li class="item"><span class="item-part">Code privé</span><span class="item-important">➜ rebase</span></li>
+    <li class="item"><span class="item-part">Code review</span><span class="item-important">➜ commit</span></li>
+    <li class="item"><span class="item-part">Code ready</span><span class="item-important">➜ rebase</span></li>
+    <li class="item"><span class="item-part">Code merge</span><span class="item-important">➜ merge</span></li>
+  </ol>
+  <div role="note">
+    Code privé ➜ rebase et rebase -i
+    Code review ➜ commit
+    Code ready ➜ rebase
+    Code merge ➜ merge
+    
+  </div>
+</section>
+<section class="slide-splash">
+  <div class="mark">démo</div>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/rpsls.svg"></figure>
+</section>
+<section class="slide-splash">
+  <div class="mark">git++</div>
+  <div class="line">Ce qu'il faut retenir</div>
+</section>
+<section class="slide-recap">
+  <div class="title">1</div>
+  <div class="mark">Une conviction</div>
+</section>
+<section>
+  <div class="title">Un historique propre</div>
+  <figure class="simple-media"><img src="media/git-clean-history.png"></figure>
+  <div role="note">
+    Un historique propre c'est important, pour avoir :
+    Qualité dans le code
+    Sérénité dans l'équipe
+    Valeur pour l'utilisateur
+    
+  </div>
+</section>
+<section class="slide-recap">
+  <div class="title">2</div>
+  <div class="mark">Une méthode</div>
+</section>
+<section>
+  <div class="title">Conventions de commit</div>
+  <figure class="simple-media"><img src="media/conventions-00.png"></figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/clean-vs-dirty-water.jpg">
+    <figcaption>git merge vs. git rebase</figcaption>
+  </figure>
+</section>
+<section class="slide-recap">
+  <div class="title">3</div>
+  <div class="mark">Des outils</div>
+</section>
+<section>
+  <div class="title title-code">git rebase -i</div>
+  <div class="list">
+    <div class="list-2col-item">Renommer</div>
+    <div class="list-2col-item">Modifier</div>
+    <div class="list-2col-item">Réordonner</div>
+    <div class="list-2col-item">Fusionner</div>
+    <div class="list-2col-item">Insérer</div>
+    <div class="list-2col-item">Supprimer</div>
+  </div>
+</section>
+<section>
+  <div class="title">npm i grunt-conventional-changelog<br>grunt changelog</div>
+  <figure class="simple-media"><img src="media/changelog.png"></figure>
+</section>
+<section>
+  <figure class="fs-media"><img src="media/happy-dev.jpg">
+    <figcaption>Merci !!</figcaption>
+  </figure>
+</section>
+<section class="slide-profiles">
+  <div class="profile"><img src="media/cyril.jpg" class="profile-picture">
+    <div class="profile-name">Cyril<br>LAKECH</div>
+    <div class="profile-twitter">@cyril_lakech<br>@chtijug</div><img src="media/groupe-adeo.png" class="profile-company-logo">
+  </div>
+  <div class="profile"><img src="media/hubert.jpg" class="profile-picture">
+    <div class="profile-name">Hubert<br>SABLONNIÈRE</div>
+    <div class="profile-twitter">@hsablonniere</div><img src="media/ineat-conseil.png" class="profile-company-logo">
+  </div>
+</section>
+<script src="dzslides.js"></script>
+<script src="highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
