@@ -5,7 +5,8 @@
 <title>git++, passez au niveau supérieur de la gestion de versions</title>
 <link href="dzslides.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
-<link href="http://fonts.googleapis.com/css?family=Signika|Patua+One" rel="stylesheet" type="text/css">
+<!--link(href='http://fonts.googleapis.com/css?family=Signika|Patua+One', rel='stylesheet', type='text/css')-->
+<link href="fonts.css" rel="stylesheet">
 <link href="highlight.github.css" rel="stylesheet">
 <section class="slide-splash">
   <div class="mark">git++</div>
@@ -360,113 +361,95 @@
   <div class="title">Et voilà : "ni vu, ni connu".</div>
   <figure class="simple-media"><img src="media/git-rebase-interactive-07.png"></figure>
 </section>
-<!--section.slide-subsection-->
-<!--    .title git rebase ?-->
-<!--    .title git commit ?-->
-<!--    .title ou git merge ?-->
-<!--section-->
-<!--    .title Je prends une US dans le backlog.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/jira.png")-->
-<!---->
-<!--section-->
-<!--    .title Je créé une branche depuis master.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-01.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title Je refactor une méthode.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-02.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title J'implémente la fonctionnalité.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-03.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title J'ai une autre idée pour le refactor.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-04.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title Je fusionne les étapes de conception...-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-05.png")-->
-<!--    // master a évolué-->
-<!---->
-<!--section.no-transition-->
-<!--    .title ...avec un git rebase interactive.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-06.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title Pendant ce temps là, master évolue.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-07.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title Je me rebase sur la dernière version.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-08.png")-->
-<!---->
-<!--section-->
-<!--    .title Je soumets ma pull request.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/new-pull-request.png")-->
-<!---->
-<!--section-->
-<!--    .title J'attire l'attention de l'équipe.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/ukraine-france.gif")-->
-<!---->
-<!--section-->
-<!--    .title L'équipe fait <br> une revue de code.-->
-<!---->
-<!--section-->
-<!--    .title Remarque : il manque un cas de test.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/goal-missed.gif")-->
-<!---->
-<!--section-->
-<!--    .title Si les tests sont verts, <br> l'équipe rajoute des gifs.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/super-green.gif")-->
-<!---->
-<!--section-->
-<!--    .title Automatisation du workflow business process CMMI v12 !-->
-<!--    figure.simple-media-->
-<!--        img(src="media/github-labels.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title Je prends en compte la remarque.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-09.png")-->
-<!---->
-<!--section-->
-<!--    .title L'équipe valide mes changements.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/daccord.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title Je fusionne les étapes de la revue...-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-10.png")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title ...avec un git rebase interactive.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-11.png")-->
-<!---->
-<!--section-->
-<!--    .title L'équipe merge la branche.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/rocket-launcher.gif")-->
-<!---->
-<!--section.no-transition-->
-<!--    .title La fonctionnalité est dans le produit.-->
-<!--    figure.simple-media-->
-<!--        img(src="media/collab-12.png")-->
+<section class="slide-subsection">
+  <div class="title">git rebase ?</div>
+  <div class="title">git commit ?</div>
+  <div class="title">ou git merge ?</div>
+</section>
+<section>
+  <div class="title">Je prends une US dans le backlog.</div>
+  <figure class="simple-media"><img src="media/jira.png"></figure>
+</section>
+<section>
+  <div class="title">Je créé une branche depuis master.</div>
+  <figure class="simple-media"><img src="media/collab-01.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je refactor une méthode.</div>
+  <figure class="simple-media"><img src="media/collab-02.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">J'implémente la fonctionnalité.</div>
+  <figure class="simple-media"><img src="media/collab-03.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">J'ai une autre idée pour le refactor.</div>
+  <figure class="simple-media"><img src="media/collab-04.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je fusionne les étapes de conception...</div>
+  <figure class="simple-media"><img src="media/collab-05.png"></figure>
+  <!-- master a évolué-->
+</section>
+<section class="no-transition">
+  <div class="title">...avec un git rebase interactive.</div>
+  <figure class="simple-media"><img src="media/collab-06.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Pendant ce temps là, master évolue.</div>
+  <figure class="simple-media"><img src="media/collab-07.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je me rebase sur la dernière version.</div>
+  <figure class="simple-media"><img src="media/collab-08.png"></figure>
+</section>
+<section>
+  <div class="title">Je soumets ma pull request.</div>
+  <figure class="simple-media"><img src="media/new-pull-request.png"></figure>
+</section>
+<section>
+  <div class="title">J'attire l'attention de l'équipe.</div>
+  <figure class="simple-media"><img src="media/ukraine-france.gif"></figure>
+</section>
+<section>
+  <div class="title">L'équipe fait <br> une revue de code.</div>
+</section>
+<section>
+  <div class="title">Remarque : il manque un cas de test.</div>
+  <figure class="simple-media"><img src="media/goal-missed.gif"></figure>
+</section>
+<section>
+  <div class="title">Si les tests sont verts, <br> l'équipe rajoute des gifs.</div>
+  <figure class="simple-media"><img src="media/super-green.gif"></figure>
+</section>
+<section>
+  <div class="title">Automatisation du workflow business process CMMI v12 !</div>
+  <figure class="simple-media"><img src="media/github-labels.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je prends en compte la remarque.</div>
+  <figure class="simple-media"><img src="media/collab-09.png"></figure>
+</section>
+<section>
+  <div class="title">L'équipe valide mes changements.</div>
+  <figure class="simple-media"><img src="media/daccord.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">Je fusionne les étapes de la revue...</div>
+  <figure class="simple-media"><img src="media/collab-10.png"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">...avec un git rebase interactive.</div>
+  <figure class="simple-media"><img src="media/collab-11.png"></figure>
+</section>
+<section>
+  <div class="title">L'équipe merge la branche.</div>
+  <figure class="simple-media"><img src="media/rocket-launcher.gif"></figure>
+</section>
+<section class="no-transition">
+  <div class="title">La fonctionnalité est dans le produit.</div>
+  <figure class="simple-media"><img src="media/collab-12.png"></figure>
+</section>
 <section>
   <div class="title">git rebase, git commit ou git merge ?</div>
   <ol class="incremental incremental-full">
@@ -546,14 +529,17 @@
   </figure>
 </section>
 <section class="slide-profiles">
-  <div class="profile"><img src="media/cyril.jpg" class="profile-picture">
-    <div class="profile-name">Cyril<br>LAKECH</div>
-    <div class="profile-twitter">@cyril_lakech<br>@chtijug</div><img src="media/groupe-adeo.png" class="profile-company-logo">
+  <div class="profiles">
+    <div class="profile"><img src="media/cyril.jpg" class="profile-picture">
+      <div class="profile-name">Cyril<br>LAKECH</div>
+      <div class="profile-twitter">@cyril_lakech<br>@chtijug</div><img src="media/groupe-adeo.png" class="profile-company-logo">
+    </div>
+    <div class="profile"><img src="media/hubert.jpg" class="profile-picture">
+      <div class="profile-name">Hubert<br>SABLONNIÈRE</div>
+      <div class="profile-twitter">@hsablonniere</div><img src="media/ineat-conseil.png" class="profile-company-logo">
+    </div>
   </div>
-  <div class="profile"><img src="media/hubert.jpg" class="profile-picture">
-    <div class="profile-name">Hubert<br>SABLONNIÈRE</div>
-    <div class="profile-twitter">@hsablonniere</div><img src="media/ineat-conseil.png" class="profile-company-logo">
-  </div>
+  <div class="slides-url">bit.ly/gitplusplus</div>
 </section>
 <script src="dzslides.js"></script>
 <script src="highlight.pack.js"></script>
